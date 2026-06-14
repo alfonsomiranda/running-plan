@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Build script for Behobia-San Sebastián training plan website.
-Generates the 21-week plan and assembles it into index.html for GitHub Pages.
+Build script for the full season training plan website
+(Behobia-San Sebastian -> Getafe -> Maraton de Madrid).
+
+Generates the 45-week plan and assembles it into index.html for GitHub Pages.
 
 Usage: python3 scripts/build.py
 Run from the repository root.
@@ -22,11 +24,11 @@ def run(script):
         print(result.stderr, file=sys.stderr)
         sys.exit(1)
 
-# Step 1: Generate weekly plan data (weeks_v2.json)
-run("gen_plan_v2.py")
+# Step 1: Generate full season plan data (weeks_full.json)
+run("gen_plan.py")
 
-# Step 2: Render week HTML blocks (weeks_html_v2.txt, phase_nav_v2.txt)
-run("render_v2.py")
+# Step 2: Render week HTML blocks (weeks_html.txt, phase_nav.txt)
+run("render.py")
 
 # Step 3: Assemble final index.html
 print("Assembling index.html...")
@@ -36,9 +38,9 @@ with open(os.path.join(SCRIPT_DIR, "part2_body.html")) as f:
     body = f.read()
 with open(os.path.join(SCRIPT_DIR, "part3_strength_script.html")) as f:
     tail = f.read()
-with open(os.path.join(SCRIPT_DIR, "weeks_html_v2.txt")) as f:
+with open(os.path.join(SCRIPT_DIR, "weeks_html.txt")) as f:
     weeks = f.read()
-with open(os.path.join(SCRIPT_DIR, "phase_nav_v2.txt")) as f:
+with open(os.path.join(SCRIPT_DIR, "phase_nav.txt")) as f:
     phase_nav = f.read()
 
 body = body.replace("__WEEKS__", weeks).replace("__PHASE_NAV__", phase_nav)

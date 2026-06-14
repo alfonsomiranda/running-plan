@@ -1,6 +1,6 @@
 import json, datetime
 
-with open("weeks_v2.json") as f:
+with open("weeks_full.json") as f:
     weeks = json.load(f)
 
 START = datetime.date(2026, 6, 15)
@@ -19,11 +19,23 @@ TYPE_NAME = {
     "strength":"FUERZA","long":"LONG RUN","race":"CARRERA"
 }
 
-PHASE_COLORS = {1:"var(--accent2)", 2:"var(--warm)", 3:"var(--accent3)", 4:"var(--accent)"}
-PHASE_NAMES = {1:"FASE 1 · BASE AERÓBICA", 2:"FASE 2 · DESARROLLO DE RITMO", 3:"FASE 3 · ESPECÍFICO BEHOBIA", 4:"FASE 4 · TAPERING"}
+# Block colors
+BLOCK_COLORS = {1: "var(--accent2)", 2: "var(--purple)", 3: "var(--accent3)"}
+BLOCK_NAMES = {
+    1: "BLOQUE 1 · BEHOBIA-SAN SEBASTIÁN (20km) · 8 NOV 2026",
+    2: "BLOQUE 2 · TRANSICIÓN + BASE MARATÓN · GETAFE (21km) 31 ENE 2027",
+    3: "BLOQUE 3 · MARATÓN DE MADRID (42,2km) · 25 ABR 2027",
+}
 
 def fmt_date(d):
     return f"{d.day} {MONTHS_ES[d.month]}"
+
+def fmt_km(v):
+    if isinstance(v, float):
+        if v == int(v):
+            return f"{int(v)}"
+        return f"{v:.1f}".replace(".", ",")
+    return str(v)
 
 def day_card(day, date):
     cls = TYPE_CLASS[day["type"]]
@@ -63,49 +75,70 @@ def day_card(day, date):
     return html
 
 week_blocks = []
+current_block = None
+
 for w in weeks:
     start = START + datetime.timedelta(days=(w["num"]-1)*7)
     end = start + datetime.timedelta(days=6)
-    phase = w["phase"]
-    color = PHASE_COLORS[phase]
+    block = w["block"]
+    color = BLOCK_COLORS[block]
+
+    # Insert block separator header when block changes
+    if block != current_block:
+        week_blocks.append(f'''
+    <div class="block-separator" style="border-color:{color}">
+      <div class="block-separator-label" style="color:{color}">{BLOCK_NAMES[block]}</div>
+    </div>
+        ''')
+        current_block = block
+
     deload_badge = '<span class="deload-badge">DESCARGA</span>' if w["deload"] else ''
-    race_badge = '<span class="race-badge">🏁 CARRERA</span>' if phase==4 and w["num"]==21 else ''
+    milestone_badge = f'<span class="race-badge">{w["milestone"]}</span>' if w.get("milestone") else ''
 
     days_html = "".join(day_card(d, start + datetime.timedelta(days=idx)) for idx, d in enumerate(w["days"]))
 
-    block = f'''
-    <div class="week-card" data-phase="{phase}">
+    lr_label = "MARATÓN" if w["num"] == 45 else ("GETAFE" if w["num"] == 33 else "long run")
+
+    block_id = f"week-{w['num']}"
+    card = f'''
+    <div class="week-card" data-block="{block}" data-week="{w['num']}">
       <div class="week-card-header" onclick="toggleWeek({w['num']})">
         <div class="week-accent" style="background:{color}"></div>
         <div class="week-title-block">
-          <div class="week-number">SEMANA {w['num']} <span class="week-dates">· {fmt_date(start)} – {fmt_date(end)}</span>{deload_badge}{race_badge}</div>
+          <div class="week-number">SEMANA {w['num']} <span class="week-dates">· {fmt_date(start)} – {fmt_date(end)}</span>{deload_badge}{milestone_badge}</div>
           <div class="week-phase-name">{w['phase_name']}</div>
         </div>
         <div class="week-stats">
-          <div class="week-stat"><span class="week-stat-val">{w['weekly_km']}</span><span class="week-stat-label">km</span></div>
-          <div class="week-stat"><span class="week-stat-val">{w['long_run']}</span><span class="week-stat-label">long run</span></div>
+          <div class="week-stat"><span class="week-stat-val">{fmt_km(w['weekly_km'])}</span><span class="week-stat-label">km</span></div>
+          <div class="week-stat"><span class="week-stat-val">{fmt_km(w['long_run'])}</span><span class="week-stat-label">{lr_label}</span></div>
         </div>
         <div class="chevron" id="chevron-{w['num']}">▾</div>
       </div>
-      <div class="week-card-body" id="week-{w['num']}">
+      <div class="week-card-body" id="{block_id}">
         <div class="week-focus"><strong>Foco de la semana:</strong> {w['focus']}</div>
         <div class="days-grid">{days_html}</div>
       </div>
     </div>
     '''
-    week_blocks.append(block)
+    week_blocks.append(card)
 
 WEEKS_HTML = "\n".join(week_blocks)
 
+# Phase nav: jump to key points
+phase_nav_items = [
+    (1, "BLOQUE 1 · BEHOBIA", "Sem 1-21", BLOCK_COLORS[1]),
+    (22, "BLOQUE 2 · TRANSICIÓN", "Sem 22-32", BLOCK_COLORS[2]),
+    (33, "🎯 GETAFE (control)", "Sem 33", BLOCK_COLORS[2]),
+    (34, "BLOQUE 3 · MARATÓN MADRID", "Sem 34-44", BLOCK_COLORS[3]),
+    (45, "🏆 MARATÓN MADRID", "Sem 45", BLOCK_COLORS[3]),
+]
 phase_nav = ""
-for p in [1,2,3,4]:
-    first_week = next(w["num"] for w in weeks if w["phase"]==p)
-    last_week = first_week + (5 if p<4 else 2)
-    phase_nav += f'<button class="phase-nav-btn" style="border-color:{PHASE_COLORS[p]}" onclick="scrollToWeek({first_week})">{PHASE_NAMES[p]}<span class="phase-nav-weeks">Sem {first_week}-{last_week}</span></button>'
+for week_num, label, sublabel, color in phase_nav_items:
+    phase_nav += f'<button class="phase-nav-btn" style="border-color:{color}" onclick="scrollToWeek({week_num})">{label}<span class="phase-nav-weeks">{sublabel}</span></button>'
 
-print("Generated", len(weeks), "weeks")
+print("Generated", len(weeks), "weeks across", len(set(w['block'] for w in weeks)), "blocks")
 
-with open("weeks_html_v2.txt","w") as f:
+with open("weeks_html.txt","w") as f:
     f.write(WEEKS_HTML)
-with open("phase_nav_v2.txt","w") as f:
+with open("phase_nav.txt","w") as f:
     f.write(phase_nav)

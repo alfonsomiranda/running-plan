@@ -1,10 +1,12 @@
-# Plan Behobia–San Sebastián 🏁
+# Plan de Temporada: Behobia → Getafe → Maratón de Madrid 🏁🎯🏆
 
-Plan de entrenamiento de 21 semanas, generado automáticamente, para la carrera Behobia–San Sebastián del 8 de noviembre de 2026.
+Plan de entrenamiento de **45 semanas**, generado automáticamente, cubriendo toda la temporada 2026-27:
+
+- **🏁 Behobia–San Sebastián (20km)** — 8 nov 2026
+- **🎯 Media Maratón de Getafe (21km, como long run de control)** — 31 ene 2027
+- **🏆 Maratón de Madrid (42,2km)** — 25 abr 2027
 
 ## 🌐 Ver la web
-
-Una vez configurado GitHub Pages (ver abajo), la web estará disponible en:
 
 ```
 https://TU-USUARIO.github.io/NOMBRE-REPO/
@@ -12,37 +14,35 @@ https://TU-USUARIO.github.io/NOMBRE-REPO/
 
 ## ⚙️ Configuración inicial (una sola vez)
 
-1. **Crea el repositorio** en GitHub (público, para que GitHub Pages gratuito funcione).
-2. **Sube todo el contenido** de esta carpeta al repo (estructura incluida: `.github/`, `scripts/`, `index.html`).
-3. Ve a **Settings → Pages**:
-   - Source: **GitHub Actions**
-4. Ve a **Settings → Actions → General → Workflow permissions**:
-   - Selecciona **"Read and write permissions"** (necesario para que el workflow pueda hacer commit del `index.html` actualizado).
-5. ¡Listo! El workflow se ejecutará:
-   - Automáticamente **cada domingo a las 19:00 UTC**
-   - Manualmente desde la pestaña **Actions → Update Training Plan → Run workflow**
+1. **Crea el repositorio** en GitHub (público).
+2. **Sube todo el contenido** de esta carpeta (estructura incluida: `.github/`, `scripts/`, `index.html`).
+3. **Settings → Pages** → Source: **GitHub Actions**
+4. **Settings → Actions → General → Workflow permissions** → **"Read and write permissions"**
+5. Lánzalo manualmente: **Actions → Update Training Plan → Run workflow**
+
+A partir de ahí: se ejecuta automáticamente **cada domingo a las 19:00 UTC**, o manualmente cuando quieras.
 
 ## 📁 Estructura
 
 ```
 .
-├── index.html                 # Web generada (no editar a mano, se regenera sola)
+├── index.html                          # Web generada (no editar a mano)
 ├── scripts/
-│   ├── build.py               # Orquestador: genera todo el sitio
-│   ├── gen_plan_v2.py         # Genera los datos del plan de 21 semanas
-│   ├── render_v2.py           # Renderiza las semanas a HTML
-│   ├── part1_head.html        # CSS + head del sitio
-│   ├── part2_body.html        # Hero, tabs, zonas de ritmo
-│   └── part3_strength_script.html  # Tablas de fuerza + JS
-└── .github/workflows/update.yml    # Automatización semanal
+│   ├── build.py                        # Orquestador: genera todo el sitio
+│   ├── gen_plan.py                     # Genera los datos del plan de 45 semanas
+│   ├── render.py                       # Renderiza las semanas a HTML
+│   ├── part1_head.html                 # CSS + head del sitio
+│   ├── part2_body.html                 # Hero, tabs, zonas de ritmo
+│   └── part3_strength_script.html      # Tablas de fuerza + JS
+└── .github/workflows/update.yml        # Automatización semanal
 ```
 
 ## 🔄 Cómo se actualiza
 
-Cada semana, tras la revisión con Claude de los datos de Strava, los cambios al plan (ajustes de ritmo, volumen, fechas, etc.) se hacen editando `scripts/gen_plan_v2.py`. Al hacer push a `main`, o automáticamente cada domingo, el workflow:
+Cada semana, tras la revisión con Claude de los datos de Strava, los ajustes al plan (ritmos, volumen, fechas, recalibración del ritmo de maratón tras Behobia/Getafe, etc.) se hacen editando `scripts/gen_plan.py`. Al hacer push a `main`, o automáticamente cada domingo, el workflow:
 
 1. Ejecuta `python3 scripts/build.py`
-2. Regenera `index.html` con los datos actualizados
+2. Regenera `index.html`
 3. Hace commit del cambio
 4. Publica en GitHub Pages
 
@@ -50,12 +50,17 @@ Cada semana, tras la revisión con Claude de los datos de Strava, los cambios al
 
 ```bash
 python3 scripts/build.py
-# genera/actualiza index.html en la raíz del repo
 ```
 
-## 📅 Calendario del plan
+## 📅 Estructura de la temporada
 
-- **Inicio:** Lunes 15 de junio de 2026 (Semana 1)
-- **Carrera:** Domingo 8 de noviembre de 2026 (Semana 21)
-- **Distancia:** 20 km
-- **Ritmo objetivo:** 5:05–5:10/km (~1h41'–1h44')
+| Bloque | Semanas | Fechas | Hito |
+|---|---|---|---|
+| 1 — Behobia | 1-21 | 15 jun – 8 nov 2026 | 🏁 Behobia-San Sebastián (20km) |
+| 2 — Transición + Base Maratón | 22-33 | 9 nov 2026 – 31 ene 2027 | 🎯 Getafe Media Maratón (21km, control) |
+| 3 — Maratón Madrid | 34-45 | 1 feb – 25 abr 2027 | 🏆 Maratón de Madrid (42,2km) |
+
+**Notas clave:**
+- El long run progresa de forma gradual: 14km (semana 1) → 22km (Behobia) → 21km (Getafe) → 32km (semana 42, sesión clave) → 42,2km (maratón)
+- Semana 27 (14-20 dic) es semana de descarga, coincidiendo con Navidad
+- El Ritmo de Maratón (MP, actualmente 5:25-5:35/km) es provisional — se recalibrará con datos reales tras Behobia y Getafe
