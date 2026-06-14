@@ -1,0 +1,211 @@
+<!-- HERO -->
+<header class="hero">
+  <div class="race-tag">Alfonso Miranda · Madrid 2026</div>
+  <h1>Behobia–<span>San Sebastián</span></h1>
+  <div class="hero-meta">
+    <div class="meta-item"><span class="meta-label">Fecha</span><span class="meta-value">8 Nov 2026</span></div>
+    <div class="meta-item"><span class="meta-label">Distancia</span><span class="meta-value">20 km</span></div>
+    <div class="meta-item"><span class="meta-label">Plan empieza</span><span class="meta-value">Lun 15 Jun · Semana 1</span></div>
+    <div class="meta-item"><span class="meta-label">5K actual</span><span class="meta-value">23:58 · 4:47/km</span></div>
+    <div class="meta-item"><span class="meta-label">Peso</span><span class="meta-value">87 kg</span></div>
+    <div class="meta-item"><span class="meta-label">Ritmo objetivo</span><span class="meta-value">5:05–5:10/km</span></div>
+  </div>
+</header>
+
+<!-- TABS -->
+<nav class="tab-nav">
+  <button class="tab-btn active" onclick="showTab('plan')">Plan semanal</button>
+  <button class="tab-btn" onclick="showTab('zonas')">Zonas de ritmo</button>
+  <button class="tab-btn" onclick="showTab('fuerza')">Tablas de fuerza</button>
+</nav>
+
+<!-- ═══════════════════ TAB 1: PLAN SEMANAL DETALLADO ═══════════════════ -->
+<div id="tab-plan" class="tab-content active">
+  <section class="section">
+    <div class="section-label">Plan detallado · 21 semanas · Empieza Lunes 15 Junio 2026</div>
+    <h2>Tu plan semana a semana</h2>
+
+    <div class="legend">
+      <div class="legend-item"><div class="legend-box" style="background:rgba(74,240,168,0.06);border-color:rgba(74,240,168,0.5)"></div>Z2 fácil</div>
+      <div class="legend-item"><div class="legend-box" style="background:rgba(240,168,74,0.05);border-color:rgba(240,168,74,0.6)"></div>Long Run</div>
+      <div class="legend-item"><div class="legend-box" style="background:rgba(232,240,74,0.05);border-color:rgba(232,240,74,0.5)"></div>Tempo</div>
+      <div class="legend-item"><div class="legend-box" style="background:rgba(240,74,122,0.05);border-color:rgba(240,74,122,0.5)"></div>Intervalos</div>
+      <div class="legend-item"><div class="legend-box" style="background:rgba(160,132,240,0.05);border-color:rgba(160,132,240,0.5)"></div>Fuerza</div>
+      <div class="legend-item"><div class="legend-box" style="background:var(--surface);border-color:var(--border);opacity:0.65"></div>Descanso</div>
+      <div class="legend-item"><div class="legend-box" style="background:rgba(232,240,74,0.1);border-color:var(--accent)"></div>Carrera</div>
+    </div>
+
+    <div class="phase-nav">
+__PHASE_NAV__
+    </div>
+
+    <div class="bulk-actions">
+      <button class="bulk-btn" onclick="expandAll()">Expandir todas</button>
+      <button class="bulk-btn" onclick="collapseAll()">Colapsar todas</button>
+      <button class="bulk-btn" onclick="expandCurrent()">Abrir semana actual</button>
+    </div>
+
+    <div class="info-box" style="margin-bottom:20px">
+      <strong>Cómo usar este plan:</strong> Cada semana está colapsada por defecto — haz clic en la cabecera para expandirla. La <strong>semana 1 empieza el lunes 15 de junio</strong>. Las semanas de "DESCARGA" reducen volumen ~20-25% para asimilar las cargas anteriores. Revisamos y ajustamos cada domingo según tus datos reales de Strava.
+    </div>
+
+__WEEKS__
+
+  </section>
+</div>
+
+<!-- ═══════════════════ TAB 2: ZONAS ═══════════════════ -->
+<div id="tab-zonas" class="tab-content">
+
+  <section class="section">
+    <div class="section-label">Basado en tu 5K de 23:58 · Strava RacePace</div>
+    <h2>Tus zonas de ritmo personalizadas</h2>
+
+    <div class="stats-grid">
+      <div class="stat-card yellow">
+        <div class="stat-label">5K Actual</div>
+        <div class="stat-value">23:58</div>
+        <div class="stat-sub">4:47/km · referencia base</div>
+      </div>
+      <div class="stat-card green">
+        <div class="stat-label">FC Máx estimada</div>
+        <div class="stat-value">179+</div>
+        <div class="stat-sub">bpm · zona 5 desde 179</div>
+      </div>
+      <div class="stat-card warm">
+        <div class="stat-label">Tempo Run reciente</div>
+        <div class="stat-value">5:33</div>
+        <div class="stat-sub">km · 10km · Z3 sostenido</div>
+      </div>
+      <div class="stat-card red">
+        <div class="stat-label">Objetivo Behobia</div>
+        <div class="stat-value">5:07</div>
+        <div class="stat-sub">min/km → 1h42' en meta</div>
+      </div>
+    </div>
+
+    <table class="zones-table">
+      <thead>
+        <tr><th>Zona</th><th>Ritmo (min/km)</th><th>FC (bpm)</th><th>Sensación</th><th>Cuándo usarla</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="zone-chip z1">Z1</span><br><small style="color:var(--muted)">Recuperación</small></td>
+          <td><span class="pace-val">6:35 – ∞</span></td>
+          <td><span class="hr-val">&lt; 120 bpm</span></td>
+          <td>Caminar rápido. Respiración tranquila.</td>
+          <td><span class="zone-use">Cool down, días de recuperación activa, vuelta a la calma</span></td>
+        </tr>
+        <tr>
+          <td><span class="zone-chip z2">Z2</span><br><small style="color:var(--muted)">Aeróbico base</small></td>
+          <td><span class="pace-val">5:38 – 6:32</span></td>
+          <td><span class="hr-val">121–149 bpm</span></td>
+          <td>Conversación fluida. Esfuerzo confortable.</td>
+          <td><span class="zone-use">Rodajes largos, calentamientos, volumen semanal. <strong style="color:var(--accent2)">Tu zona principal (80% del volumen)</strong></span></td>
+        </tr>
+        <tr>
+          <td><span class="zone-chip z3">Z3</span><br><small style="color:var(--muted)">Tempo / Umbral bajo</small></td>
+          <td><span class="pace-val">5:04 – 5:37</span></td>
+          <td><span class="hr-val">150–164 bpm</span></td>
+          <td>Frases cortas. Esfuerzo "cómodo-difícil".</td>
+          <td><span class="zone-use">Tempo runs, progresivos, km finales del long run. <strong style="color:var(--accent)">Ritmo Behobia ~5:05–5:10/km</strong></span></td>
+        </tr>
+        <tr>
+          <td><span class="zone-chip z4">Z4</span><br><small style="color:var(--muted)">Umbral láctico</small></td>
+          <td><span class="pace-val">4:44 – 5:03</span></td>
+          <td><span class="hr-val">165–178 bpm</span></td>
+          <td>Solo palabras sueltas. Esfuerzo duro sostenible.</td>
+          <td><span class="zone-use">Intervalos largos (1k–2k), fartlek intenso, repeticiones de carrera</span></td>
+        </tr>
+        <tr>
+          <td><span class="zone-chip z5">Z5</span><br><small style="color:var(--muted)">VO2max</small></td>
+          <td><span class="pace-val">4:27 – 4:43</span></td>
+          <td><span class="hr-val">179+ bpm</span></td>
+          <td>Sin hablar. Esfuerzo máximo sostenible ~3–5 min.</td>
+          <td><span class="zone-use">400m–800m intensos, cuestas, series cortas. Máximo 1–2 sesiones/semana</span></td>
+        </tr>
+        <tr>
+          <td><span class="zone-chip z6">Z6</span><br><small style="color:var(--muted)">Anaeróbico</small></td>
+          <td><span class="pace-val">&lt; 4:27</span></td>
+          <td><span class="hr-val">Máx</span></td>
+          <td>Sin hablar. &lt;60 segundos de esfuerzo.</td>
+          <td><span class="zone-use">Strides finales, sprints, aceleraciones. Uso puntual</span></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="highlight">
+      <strong>Clave para Behobia:</strong> Tu ritmo objetivo de <strong>5:05–5:10/km</strong> está justo al borde Z2/Z3 — el límite aeróbico superior. Para aguantar 20km ahí, el trabajo de Z2 en volumen y las sesiones de tempo en Z3 son las más importantes del plan. Los intervalos en Z4–Z5 elevan el techo, pero la carrera se gana en Z3 sostenida.
+    </div>
+
+    <div class="info-box" style="margin-top:12px;">
+      <strong>Referencia rápida:</strong> Tempo Run reciente (11 Jun) → 10km a 5:33/km con FC media 143 bpm (Z2 alta). La Vintage Run (31 May) → 10km a 4:46/km, FC no disponible. Ritmo de carrera real ya tocando Z4. Margen de mejora claro hacia Behobia.
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-label">Referencia de ritmos por tipo de entrenamiento</div>
+    <h2>Guía rápida de ritmos</h2>
+    <table class="zones-table">
+      <thead>
+        <tr><th>Tipo de sesión</th><th>Ritmo</th><th>FC objetivo</th><th>Descripción</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Rodaje suave / Z2</strong></td>
+          <td><span class="pace-val" style="color:var(--accent2)">5:38 – 6:15/km</span></td>
+          <td><span class="hr-val">125–145 bpm</span></td>
+          <td>Base de volumen. Conversación fluida. La mayoría de tus km.</td>
+        </tr>
+        <tr>
+          <td><strong>Long Run (fácil)</strong></td>
+          <td><span class="pace-val" style="color:var(--accent2)">5:45 – 6:20/km</span></td>
+          <td><span class="hr-val">125–148 bpm</span></td>
+          <td>Ritmo cómodo toda la distancia. Si subes, reduce el ritmo.</td>
+        </tr>
+        <tr>
+          <td><strong>Long Run (últimos km a ritmo)</strong></td>
+          <td><span class="pace-val" style="color:var(--accent)">5:05 – 5:20/km</span></td>
+          <td><span class="hr-val">150–162 bpm</span></td>
+          <td>Solo los últimos 3–8 km según la fase. Simula fatiga de carrera.</td>
+        </tr>
+        <tr>
+          <td><strong>Tempo continuo</strong></td>
+          <td><span class="pace-val" style="color:var(--accent)">5:04 – 5:25/km</span></td>
+          <td><span class="hr-val">152–164 bpm</span></td>
+          <td>20–30 min continuos. Esfuerzo controlado pero exigente.</td>
+        </tr>
+        <tr>
+          <td><strong>Fartlek / Intervalos largos (1k)</strong></td>
+          <td><span class="pace-val" style="color:var(--warm)">4:44 – 5:03/km</span></td>
+          <td><span class="hr-val">160–175 bpm</span></td>
+          <td>Series con recuperación. Desarrolla umbral láctico.</td>
+        </tr>
+        <tr>
+          <td><strong>400m – 800m intensos</strong></td>
+          <td><span class="pace-val" style="color:var(--accent3)">4:27 – 4:58/km</span></td>
+          <td><span class="hr-val">170–180+ bpm</span></td>
+          <td>Series cortas de alta calidad. VO2max. Máx 2/semana.</td>
+        </tr>
+        <tr>
+          <td><strong>Cuestas (60")</strong></td>
+          <td><span class="pace-val" style="color:var(--accent3)">Esfuerzo máximo</span></td>
+          <td><span class="hr-val">175+ bpm</span></td>
+          <td>Ritmo en cuesta no aplica — esfuerzo percibido de Z5–Z6.</td>
+        </tr>
+        <tr>
+          <td><strong>Strides / Aceleraciones</strong></td>
+          <td><span class="pace-val" style="color:var(--accent3)">&lt; 4:27/km</span></td>
+          <td><span class="hr-val">Máximo</span></td>
+          <td>20–30 seg. Al final de rodajes Z2. Activa el sistema neuromuscular.</td>
+        </tr>
+        <tr>
+          <td><strong>🏁 Ritmo Behobia objetivo</strong></td>
+          <td><span class="pace-val" style="color:var(--accent); font-size:1rem">5:05 – 5:10/km</span></td>
+          <td><span class="hr-val">150–162 bpm</span></td>
+          <td>Tu ritmo de carrera. <strong style="color:var(--accent)">→ Meta: 1h41'–1h44'</strong></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</div>
