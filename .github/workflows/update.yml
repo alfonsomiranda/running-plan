@@ -1,0 +1,40 @@
+name: Update Training Plan
+
+on:
+  # Run every Sunday at 19:00 UTC (~20:00/21:00 Madrid depending on DST)
+  schedule:
+    - cron: '0 19 * * 0'
+  # Allow manual trigger from the Actions tab
+  workflow_dispatch:
+  # Also rebuild whenever scripts change
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build site
+        run: python3 scripts/build.py
+
+      - name: Commit updated index.html
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html scripts/weeks_v2.json
+          git diff --cached --quiet || git
