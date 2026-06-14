@@ -1,12 +1,9 @@
 name: Update Training Plan
 
 on:
-  # Run every Sunday at 19:00 UTC (~20:00/21:00 Madrid depending on DST)
   schedule:
     - cron: '0 19 * * 0'
-  # Allow manual trigger from the Actions tab
   workflow_dispatch:
-  # Also rebuild whenever scripts change
   push:
     branches: [main]
     paths:
@@ -39,3 +36,27 @@ jobs:
           git add index.html scripts/weeks_v2.json
           git diff --cached --quiet || git commit -m "Auto-update training plan"
           git push
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
