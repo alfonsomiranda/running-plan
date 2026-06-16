@@ -4,7 +4,7 @@ Plan de entrenamiento de **45 semanas**, generado automáticamente, cubriendo to
 
 - **🏁 Behobia–San Sebastián (20km)** — 8 nov 2026
 - **🎯 Media Maratón de Getafe (21km, como long run de control)** — 31 ene 2027
-- **🏆 Maratón de Madrid (42,2km)** — 25 abr 2027
+- **🏆 Maratón de Madrid (42,2km)** — 25 abr 2027 · Objetivo: **sub-4h** (ambicioso: ~3h45)
 
 ## 🌐 Ver la web
 
@@ -52,15 +52,37 @@ Cada semana, tras la revisión con Claude de los datos de Strava, los ajustes al
 python3 scripts/build.py
 ```
 
-## 📅 Estructura de la temporada
+## 📅 Estructura semanal estándar
 
-| Bloque | Semanas | Fechas | Hito |
-|---|---|---|---|
-| 1 — Behobia | 1-21 | 15 jun – 8 nov 2026 | 🏁 Behobia-San Sebastián (20km) |
-| 2 — Transición + Base Maratón | 22-33 | 9 nov 2026 – 31 ene 2027 | 🎯 Getafe Media Maratón (21km, control) |
-| 3 — Maratón Madrid | 34-45 | 1 feb – 25 abr 2027 | 🏆 Maratón de Madrid (42,2km) |
+| Día | Contenido |
+|---|---|
+| Lunes | Descanso total |
+| Martes | Trote activación (3-4km) + Fuerza A/B/C |
+| Miércoles | Intervalos / Cuestas |
+| Jueves | Trote activación (3-4km) + Fuerza A/B/C (otra sesión) |
+| Viernes | Recovery / Z2 suave |
+| **Sábado** | **Long Run** (con tramos a ritmo cuando toca) |
+| Domingo | Z2 opcional o descanso |
+
+En semanas con carrera (Behobia, Getafe, Maratón) la carrera ocupa el domingo y el resto de la semana se adapta (taper).
+
+**Nota sobre activación pre-fuerza:** siguiendo recomendaciones de entrenadores especializados (Luis del Águila), el trote corto va ANTES de la fuerza (activación, sin fatiga) en vez de después (que acumula fatiga residual con poco beneficio aeróbico).
+
+## 📊 Estructura de la temporada
+
+| Bloque | Semanas | Fechas | Hito | Pico volumen | Long run máx |
+|---|---|---|---|---|---|
+| 1 — Behobia | 1-21 | 15 jun – 8 nov 2026 | 🏁 Behobia (20km) | 55 km | 21 km |
+| 2 — Transición + Base Maratón | 22-33 | 9 nov 2026 – 31 ene 2027 | 🎯 Getafe (21km, control) | 47 km | 21,1 km (Getafe) |
+| 3 — Maratón Madrid | 34-45 | 1 feb – 25 abr 2027 | 🏆 Maratón (42,2km) | 56 km | 27 km (sem. 42, sesión clave) + 24km (sem. 37, gran sesión previa) |
+
+## 🎯 Sobre el Ritmo de Maratón (MP) y objetivos
+
+- **MP actual: 5:40-5:50/km** → objetivo sub-4h (~3h58-4h05), prioridad principal
+- **Predicción desde 5K (23:58)**: ~3h45-3h50 si la resistencia de fondo responde bien
+- **Recalibración**: tras Behobia (8 nov) y especialmente Getafe (31 ene), se ajustará el MP con datos reales. Si Getafe sale por debajo de ~1h50, valorar apuntar a 3h45 con MP≈5:20/km
+- El bloque 3 incluye **dos long runs grandes**: semana 37 (24km, primera "gran sesión") y semana 42 (27km + 13km a MP, la sesión clave de toda la temporada)
 
 **Notas clave:**
-- El long run progresa de forma gradual: 14km (semana 1) → 22km (Behobia) → 21km (Getafe) → 32km (semana 42, sesión clave) → 42,2km (maratón)
+- Todas las progresiones de volumen y long run siguen incrementos de ~5-10% por semana (regla del 10%), con descargas moderadas
 - Semana 27 (14-20 dic) es semana de descarga, coincidiendo con Navidad
-- El Ritmo de Maratón (MP, actualmente 5:25-5:35/km) es provisional — se recalibrará con datos reales tras Behobia y Getafe
