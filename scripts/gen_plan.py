@@ -2,35 +2,84 @@ import datetime, json
 
 START = datetime.date(2026, 6, 15)
 
-# Pace zones (min/km as strings) - from Strava 5K 23:58
-Z1 = "6:10-6:50"
-Z2 = "5:40-6:15"
-Z2_LR = "5:45-6:20"
-Z3 = "5:04-5:30"
-Z4 = "4:44-5:03"
-Z5 = "4:27-4:43"
-RACE_BEHOBIA = "5:05-5:10"
-MP = "5:40-5:50"  # Marathon Pace - objetivo sub-4h (~3h58-4h05). Recalibrar tras Getafe; sub-3:45 requeriria ~5:20/km
+# ═══════════════════════════════════════════════════════════════
+# ZONAS CALIBRADAS CON DATOS REALES DE COROS (Alfonso Miranda)
+# Umbral láctico: 4:37/km · FC umbral: 158 bpm
+# FC máxima estimada: 175 bpm · FC en reposo: 49 bpm (medida)
+# Método: Karvonen para FC, % velocidad umbral para ritmos
+# ═══════════════════════════════════════════════════════════════
+
+# Ritmos por zona (min/km)
+Z1     = "6:47-7:41"   # Recovery — <124 bpm
+Z2     = "5:37-6:35"   # Aeróbico base — 124-143 bpm
+Z2_LR  = "5:50-6:35"   # Long run (mitad alta de Z2) — 124-140 bpm
+Z3     = "5:07-5:37"   # Tempo / umbral bajo — 143-156 bpm
+Z4     = "4:45-5:07"   # Umbral láctico — 156-166 bpm
+Z5     = "4:18-4:45"   # VO2max — 166-175 bpm
+RACE_BEHOBIA = "5:00-5:10"  # Ritmo Behobia 20km (~Z3 alto/Z4 bajo)
+MP     = "5:15-5:25"   # Marathon Pace entrenamiento — objetivo carrera ~3:45-3:50
+
+# FC por zona (Karvonen: FCrep=49, FCmax=175, FC reserva=126)
+FC_Z1  = "<124"
+FC_Z2  = "124-143"
+FC_Z3  = "143-156"
+FC_Z4  = "156-166"
+FC_Z5  = "166-175"
+FC_UMBRAL = "158"  # umbral láctico real Coros
+
+# ═══════════════════════════════════════════════════════════════
+# HELPERS
+# ═══════════════════════════════════════════════════════════════
 
 def km(v):
     if isinstance(v, float) and v == int(v):
         v = int(v)
     return f"{v} km"
 
-def warm(dist_km, pace=Z2, label="Calentamiento"):
-    return {"label": label, "detail": f"{dist_km} km a {pace}/km · trote suave, FC <140"}
+def mins(minutes, label=""):
+    return f"{minutes} min" + (f" {label}" if label else "")
 
-def cool(dist_km, pace=Z1, label="Enfriamiento"):
-    return {"label": label, "detail": f"{dist_km} km a {pace}/km · trote muy suave + caminar 2'"}
+def warm(dist_km, pace=None, label="Calentamiento"):
+    """Warm-up: always Z1 pace (clearly slower than the main run)."""
+    return {"label": label, "detail": f"{dist_km} km a {Z1}/km · FC {FC_Z1} · trote muy suave para activar"}
+
+def cool(dist_km=None, pace=None, label="Enfriamiento"):
+    """Cool-down: Z1 or walking, time-cued."""
+    return {"label": label, "detail": f"5-8 min caminando o trote muy suave a {Z1}/km · deja que la FC baje por debajo de 120"}
+
+def z2_block(minutes, label="Rodaje Z2"):
+    """Time-based Z2 block — FC is the target, pace is the consequence."""
+    return {"label": label, "detail": f"{minutes} min a FC {FC_Z2} · ritmo orientativo {Z2}/km · conversacional, frases completas"}
 
 def main_reps(reps, rep_dist, rep_pace, rec_desc, label="Serie principal"):
+    """Quality intervals — distance + pace (pace IS the goal)."""
     return {"label": label, "detail": f"{reps} × {rep_dist} a {rep_pace}/km · recuperación: {rec_desc}"}
 
-def main_continuous(dist_km, pace, label="Cuerpo principal"):
-    return {"label": label, "detail": f"{dist_km} km continuos a {pace}/km · esfuerzo controlado, FC 152-164"}
+def main_continuous(dist_km, pace, fc_or_label=None, label="Cuerpo principal"):
+    """Continuous block. For Z2/long runs use FC prescription; for quality use pace."""
+    # Determine FC to show: if pace is Z2_LR or Z2, use FC_Z2; if Z3 use FC_Z3 etc.
+    if fc_or_label and fc_or_label.startswith("Cuerpo"):
+        label = fc_or_label
+        fc_or_label = None
+    if pace in (Z2, Z2_LR):
+        fc_str = FC_Z2
+    elif pace == Z3:
+        fc_str = FC_Z3
+    elif pace in (Z4, RACE_BEHOBIA):
+        fc_str = FC_Z4
+    elif pace == MP:
+        fc_str = "140-155"
+    elif pace == Z1:
+        fc_str = FC_Z1
+    else:
+        fc_str = fc_or_label or FC_Z2
+    return {"label": label, "detail": f"{dist_km} km a {pace}/km · FC {fc_str}"}
 
 def total_line(total_km, extra=""):
     return f"Total: ~{total_km} km" + (f" · {extra}" if extra else "")
+
+def total_time(minutes, extra=""):
+    return f"Duración total: ~{minutes} min" + (f" · {extra}" if extra else "")
 
 STRENGTH_A_STEPS = [
     {"label":"1. Goblet Squat","detail":"3×15 · 10kg · descanso 60\""},
@@ -79,7 +128,7 @@ def rest_day(d, detail="Estiramientos suaves opcionales 10 min. Foam roller si t
 
 def sunday_optional(dist_km=5, note="Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa."):
     return {"d":"DOM","title":"Z2 muy suave (opcional)","type":"ez","pace":"5:50-6:30","dist":km(dist_km),
-        "steps":[{"label":"Recorrido completo","detail":f"{dist_km}km a 5:50-6:30/km · FC<140 · totalmente opcional"}],
+        "steps":[{"label":"Rodaje muy suave","detail":f"30-40 min a FC {FC_Z1}-{FC_Z2.split("-")[0]} · ritmo orientativo {Z2_LR}/km · totalmente opcional"}],
         "detail":note + " " + total_line(dist_km)}
 
 def sunday_rest():
@@ -129,7 +178,7 @@ for i in range(6):
 
     days.append(strength_plus_run("JUE", "B", 3 if not deload else 3))
 
-    days.append({"d":"VIE","title":"Z2 suave","type":"ez","pace":Z2,"dist":km(6 if not deload else 5),
+    days.append({"d":"VIE","title":"Z2 suave","type":"ez","pace":Z2,"dist":"35-40 min",
         "steps":[
             warm(1.5, Z2, "Inicio"),
             main_continuous((6 if not deload else 5)-3, Z2, "Cuerpo"),
@@ -189,7 +238,7 @@ for i in range(8):
 
     days.append(strength_plus_run("JUE", "B", 4 if not deload else 3))
 
-    days.append({"d":"VIE","title":"Recovery Z1","type":"ez","pace":Z1,"dist":km(5),
+    days.append({"d":"VIE","title":"Recovery suave","type":"ez","pace":Z1,"dist":"25-30 min",
         "steps":[{"label":"Recorrido completo","detail":f"5km continuos a {Z1}/km · FC <130"}],
         "detail":"Solo regeneración activa, deja las piernas listas para el long run del sábado. " + total_line(5)})
 
@@ -244,7 +293,7 @@ for i in range(4):
 
     days.append(strength_plus_run("JUE", "A", 4 if not deload else 3))
 
-    days.append({"d":"VIE","title":"Z2 con desnivel" if not deload else "Z2 suave","type":"ez","pace":Z2,"dist":km(7 if not deload else 5),
+    days.append({"d":"VIE","title":"Z2 con desnivel" if not deload else "Z2 suave","type":"ez","pace":Z2,"dist":"35-40 min",
         "steps":[warm(2, Z2, "Inicio"), main_continuous((7 if not deload else 5)-3, Z2, "Cuerpo"), cool(1, Z1, "Final")],
         "detail":(f"Busca rutas con desnivel acumulado (Casa de Campo / Monte de El Pardo). FC más alta en subidas — normal. " if not deload else "Última semana antes del taper: reduce intensidad. ") + total_line(7 if not deload else 5)})
 
@@ -403,7 +452,7 @@ for i in range(5):
 
     days.append(strength_plus_run("JUE", "B", 3 if not deload else 3))
 
-    days.append({"d":"VIE","title":"Z2 suave","type":"ez","pace":Z2,"dist":km(5),
+    days.append({"d":"VIE","title":"Z2 suave","type":"ez","pace":Z2,"dist":"35-40 min",
         "steps":[warm(1.5, Z2, "Inicio"), main_continuous(2, Z2, "Cuerpo"), cool(1.5, Z1, "Final")],
         "detail":"FC<145, transición hacia el long run del sábado. " + total_line(5)})
 
@@ -462,8 +511,8 @@ for i in range(5):
         days.append(rest_day("VIE", "Descanso completo antes de Getafe — llega fresco."))
     else:
         days.append({"d":"VIE","title":"Recovery Z1","type":"ez","pace":Z1,"dist":km(5),
-            "steps":[{"label":"Recorrido completo","detail":f"5km a {Z1}/km · FC<130"}],
-            "detail":"Regeneración activa para el long run. " + total_line(5)})
+            "steps":[{"label":"Trote de recuperación","detail":f"25-30 min a FC {FC_Z1} · ritmo orientativo {Z1}/km"}],
+            "detail":"Regeneración activa para el long run. FC por debajo de 124 toda la sesión."})
 
     if is_pretaper:
         days.append({"d":"SÁB","title":"Long Run suave (pre-Getafe)","type":"long","pace":Z2_LR,"dist":km(lr),
@@ -558,13 +607,13 @@ for i in range(5):
     days.append(strength_plus_run("JUE", "B", 4 if not deload else 3))
 
     if deload:
-        days.append({"d":"VIE","title":"Z2 suave + strides","type":"ez","pace":Z2,"dist":km(6),
-            "steps":[warm(1.5, Z2, "Inicio"), main_continuous(3, Z2, "Cuerpo"), main_reps(4, "20\"", "<4:27", "40\" trote", "Strides finales")],
-            "detail":"Semana de descarga: reduce volumen e intensidad. " + total_line(6)})
+        days.append({"d":"VIE","title":"Z2 suave + strides","type":"ez","pace":Z2,"dist":"30-35 min",
+            "steps":[z2_block(30), main_reps(4, "20\"", "<4:27", "40\" caminar", "Strides finales"), cool()],
+            "detail":"FC 124-143. Descarga: reduce volumen e intensidad. Los strides al final activan el sistema neuromuscular."})
     else:
-        days.append({"d":"VIE","title":"Recovery Z1","type":"ez","pace":Z1,"dist":km(5),
-            "steps":[{"label":"Recorrido completo","detail":f"5km a {Z1}/km · FC<130"}],
-            "detail":"Regeneración activa para el long run. " + total_line(5)})
+        days.append({"d":"VIE","title":"Recovery Z1","type":"ez","pace":Z1,"dist":"25 min",
+            "steps":[{"label":"Trote de recuperación","detail":f"25-30 min a FC {FC_Z1} · ritmo orientativo {Z1}/km"}],
+            "detail":"Regeneración activa para el long run. FC por debajo de 124 toda la sesión."})
 
     if deload:
         days.append({"d":"SÁB","title":"Long Run de descarga","type":"long","pace":Z2_LR,"dist":km(lr),
@@ -627,9 +676,9 @@ for i in range(4):
     if is_peak:
         days.append(rest_day("VIE", "Descanso extra antes del long run de 31km — el más importante del plan. Hidrátate bien hoy."))
     else:
-        days.append({"d":"VIE","title":"Recovery Z1","type":"ez","pace":Z1,"dist":km(5),
-            "steps":[{"label":"Recorrido completo","detail":f"5km a {Z1}/km · FC<130"}],
-            "detail":"Regeneración activa para el long run. " + total_line(5)})
+        days.append({"d":"VIE","title":"Recovery Z1","type":"ez","pace":Z1,"dist":"25 min",
+            "steps":[{"label":"Trote de recuperación","detail":f"25-30 min a FC {FC_Z1} · ritmo orientativo {Z1}/km"}],
+            "detail":"Regeneración activa para el long run. FC por debajo de 124 toda la sesión."})
 
     if is_peak:
         days.append({"d":"SÁB","title":f"🏆 Long Run más largo: {lr}km + {mp_km}km a MP","type":"long","pace":f"{Z2_LR} → {mp_km}km a {MP}","dist":km(lr),
