@@ -180,11 +180,10 @@ for i in range(6):
 
     days.append({"d":"VIE","title":"Z2 suave","type":"ez","pace":Z2,"dist":"35-40 min",
         "steps":[
-            warm(1.5, Z2, "Inicio"),
-            main_continuous((6 if not deload else 5)-3, Z2, "Cuerpo"),
-            cool(1.5, Z1, "Final"),
+            z2_block(40 if not deload else 30),
+            cool(),
         ],
-        "detail":"FC<145. Día de transición antes del long run del sábado. " + total_line(6 if not deload else 5)})
+        "detail":f"FC {FC_Z2}. Día de transición antes del long run del sábado. Rige la FC, no el ritmo."})
 
     if deload:
         days.append({"d":"SÁB","title":"Long Run de recuperación","type":"long","pace":Z2_LR,"dist":km(lr),
@@ -239,8 +238,8 @@ for i in range(8):
     days.append(strength_plus_run("JUE", "B", 4 if not deload else 3))
 
     days.append({"d":"VIE","title":"Recovery suave","type":"ez","pace":Z1,"dist":"25-30 min",
-        "steps":[{"label":"Recorrido completo","detail":f"5km continuos a {Z1}/km · FC <130"}],
-        "detail":"Solo regeneración activa, deja las piernas listas para el long run del sábado. " + total_line(5)})
+        "steps":[{"label":"Trote de recuperación","detail":f"25-30 min a FC {FC_Z1} · ritmo orientativo {Z1}/km · sin objetivo de distancia"}],
+        "detail":"Regeneración activa. FC por debajo de 124 toda la sesión. Deja las piernas listas para el long run del sábado."})
 
     last_km = min(5, 3 + (w-7)//2)
     if deload:
@@ -294,8 +293,11 @@ for i in range(4):
     days.append(strength_plus_run("JUE", "A", 4 if not deload else 3))
 
     days.append({"d":"VIE","title":"Z2 con desnivel" if not deload else "Z2 suave","type":"ez","pace":Z2,"dist":"35-40 min",
-        "steps":[warm(2, Z2, "Inicio"), main_continuous((7 if not deload else 5)-3, Z2, "Cuerpo"), cool(1, Z1, "Final")],
-        "detail":(f"Busca rutas con desnivel acumulado (Casa de Campo / Monte de El Pardo). FC más alta en subidas — normal. " if not deload else "Última semana antes del taper: reduce intensidad. ") + total_line(7 if not deload else 5)})
+        "steps":[
+            z2_block(40 if not deload else 30),
+            cool(),
+        ],
+        "detail":(f"FC {FC_Z2}. Busca rutas con desnivel (Casa de Campo / Monte de El Pardo). La FC subirá en cuestas — normal, no fuerces el ritmo para compensar." if not deload else f"FC {FC_Z2}. Última semana antes del taper: reduce a 30 min suaves.")})
 
     if deload:
         days.append({"d":"SÁB","title":"Long Run suave (descarga)","type":"long","pace":Z2_LR,"dist":km(lr),
@@ -453,8 +455,11 @@ for i in range(5):
     days.append(strength_plus_run("JUE", "B", 3 if not deload else 3))
 
     days.append({"d":"VIE","title":"Z2 suave","type":"ez","pace":Z2,"dist":"35-40 min",
-        "steps":[warm(1.5, Z2, "Inicio"), main_continuous(2, Z2, "Cuerpo"), cool(1.5, Z1, "Final")],
-        "detail":"FC<145, transición hacia el long run del sábado. " + total_line(5)})
+        "steps":[
+            z2_block(35),
+            cool(),
+        ],
+        "detail":f"FC {FC_Z2}. Transición suave hacia el long run del sábado. Rige la FC, no el ritmo."})
 
     days.append({"d":"SÁB","title":"Long Run progresivo" if not deload else "Long Run de descarga (Navidad)","type":"long","pace":Z2_LR,"dist":km(lr),
         "steps":[warm(2, Z2_LR, "Inicio"), main_continuous(lr-4, Z2_LR, "Cuerpo"), cool(2, Z1, "Final")],
@@ -510,9 +515,9 @@ for i in range(5):
     if is_pretaper:
         days.append(rest_day("VIE", "Descanso completo antes de Getafe — llega fresco."))
     else:
-        days.append({"d":"VIE","title":"Recovery Z1","type":"ez","pace":Z1,"dist":km(5),
-            "steps":[{"label":"Trote de recuperación","detail":f"25-30 min a FC {FC_Z1} · ritmo orientativo {Z1}/km"}],
-            "detail":"Regeneración activa para el long run. FC por debajo de 124 toda la sesión."})
+        days.append({"d":"VIE","title":"Recovery Z1","type":"ez","pace":Z1,"dist":"25-30 min",
+            "steps":[{"label":"Trote de recuperación","detail":f"25-30 min a FC {FC_Z1} · ritmo orientativo {Z1}/km · sin objetivo de distancia"}],
+            "detail":"Regeneración activa. FC por debajo de 124 toda la sesión. Deja las piernas listas para el long run del sábado."})
 
     if is_pretaper:
         days.append({"d":"SÁB","title":"Long Run suave (pre-Getafe)","type":"long","pace":Z2_LR,"dist":km(lr),
