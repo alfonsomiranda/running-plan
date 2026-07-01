@@ -30,6 +30,7 @@
     background: rgba(14,15,19,0.95); backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--border);
     display: flex; gap: 0; overflow-x: auto; padding: 0 24px;
+    background-color: #0e0f13;
   }
   .tab-btn {
     padding: 14px 20px; background: none; border: none; border-bottom: 2px solid transparent;
@@ -42,7 +43,7 @@
   .tab-content.active { display: block; }
 
   /* HERO */
-  .hero { padding: 52px 32px 40px; max-width: 1000px; margin: 0 auto; border-bottom: 1px solid var(--border); }
+  .hero { padding: 52px 32px 40px; max-width: 1000px; margin: 0 auto; border-bottom: 1px solid var(--border); background-color: #0e0f13; }
   .race-tag {
     font-family: 'Space Mono', monospace; font-size: 11px; letter-spacing: 3px; text-transform: uppercase;
     color: var(--accent); margin-bottom: 14px; display: flex; align-items: center; gap: 10px;
@@ -56,7 +57,7 @@
   .meta-value { font-size:1.05rem; font-weight:600; }
 
   /* SECTIONS */
-  .section { max-width: 1000px; margin: 0 auto; padding: 40px 32px; border-bottom: 1px solid var(--border); }
+  .section { max-width: 1000px; margin: 0 auto; padding: 40px 32px; border-bottom: 1px solid var(--border); background-color: #0e0f13; }
   .section-label { font-family:'Space Mono',monospace; font-size:10px; letter-spacing:3px; text-transform:uppercase; color:var(--muted); margin-bottom:20px; }
   .section h2 { font-size:1.4rem; font-weight:600; margin-bottom:22px; letter-spacing:-0.5px; }
 
@@ -233,6 +234,11 @@
     .week-card-header { flex-wrap:wrap; }
     .week-stats { gap:12px; }
   }
+
+  /* Explicit fallback for preview environments that may not inherit CSS vars */
+  header.hero, nav.tab-nav, div.tab-content, div.section, .week-card, .day-card, footer {
+    background-color: inherit;
+  }
 </style>
 </head>
-<body>
+<body style="background-color:#0e0f13;color:#e8eaf0;">
