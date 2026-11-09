@@ -49,7 +49,7 @@ def cool(dist_km=None, pace=None, label="Enfriamiento"):
 
 def z2_block(minutes, label="Rodaje Z2"):
     """Time-based Z2 block — FC is the target, pace is the consequence."""
-    return {"label": label, "detail": f"{minutes} min a FC {FC_Z2} · ritmo orientativo {Z2}/km · conversacional, frases completas"}
+    return {"label": label, "detail": f"{minutes} min a FC {FC_Z2} · ritmo orientativo {Z2}/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"}
 
 def main_reps(reps, rep_dist, rep_pace, rec_desc, label="Serie principal"):
     """Quality intervals — distance + pace (pace IS the goal)."""
@@ -188,13 +188,13 @@ for i in range(6):
     if deload:
         days.append({"d":"SÁB","title":"Long Run de recuperación","type":"long","pace":Z2_LR,"dist":km(lr),
             "steps":[warm(2, Z2_LR, "Inicio"), main_continuous(lr-4, Z2_LR, "Cuerpo del rodaje"), cool(2, Z1, "Final")],
-            "detail":f"Ritmo cómodo toda la distancia, FC<150. Semana de descarga: recupera del bloque anterior, sin prisa. {total_line(lr)}"})
+            "detail":f"Ritmo cómodo toda la distancia, FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Semana de descarga: recupera del bloque anterior, sin prisa. {total_line(lr)}"})
     else:
         days.append({"d":"SÁB","title":"Long Run progresivo","type":"long","pace":Z2_LR,"dist":km(lr),
             "steps":[warm(2, Z2_LR, "Inicio"), main_continuous(lr-4, Z2_LR, "Cuerpo del rodaje"), cool(2, Z1, "Final")],
-            "detail":f"Ritmo cómodo, FC<150. Termina sintiéndote capaz de seguir 2-3km más — esa es la sensación correcta. {total_line(lr)}"})
+            "detail":f"Ritmo cómodo, FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Termina sintiéndote capaz de seguir 2-3km más — esa es la sensación correcta. {total_line(lr)}"})
 
-    days.append(sunday_optional(5 if not deload else 4))
+    days.append(sunday_rest())
 
     weeks.append({
         "num": w, "block": 1, "phase": 1, "phase_name": "Behobia · Fase 1 — Base aeróbica",
@@ -245,7 +245,7 @@ for i in range(8):
     if deload:
         days.append({"d":"SÁB","title":"Long Run de descarga","type":"long","pace":Z2_LR,"dist":km(lr),
             "steps":[warm(2, Z2_LR, "Inicio"), main_continuous(lr-4, Z2_LR, "Cuerpo"), cool(2, Z1, "Final")],
-            "detail":f"Semana de descarga: todo suave, sin ritmo final. FC<150. {total_line(lr)}"})
+            "detail":f"Semana de descarga: todo suave, sin ritmo final. FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). {total_line(lr)}"})
     else:
         days.append({"d":"SÁB","title":"Long Run + ritmo final","type":"long","pace":f"{Z2_LR} → {last_km}km a {RACE_BEHOBIA}","dist":km(lr),
             "steps":[
@@ -253,9 +253,9 @@ for i in range(8):
                 main_continuous(lr-2-last_km, Z2_LR, "Cuerpo suave"),
                 {"label":f"Últimos {last_km}km a ritmo Behobia","detail":f"{last_km} km a {RACE_BEHOBIA}/km · FC 150-163 · simula final de carrera"},
             ],
-            "detail":f"Primeros {lr-last_km}km a FC<150. Los últimos {last_km}km suben a ritmo objetivo — sin recuperación entre tramos. {total_line(lr)}"})
+            "detail":f"Primeros {lr-last_km}km a FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Los últimos {last_km}km suben a ritmo objetivo — sin recuperación entre tramos. {total_line(lr)}"})
 
-    days.append(sunday_optional(5 if not deload else 4))
+    days.append(sunday_rest())
 
     weeks.append({
         "num": w, "block": 1, "phase": 2, "phase_name": "Behobia · Fase 2 — Desarrollo de ritmo",
@@ -312,7 +312,7 @@ for i in range(4):
             ],
             "detail":f"⭐ Esta es tu sesión más dura del plan — simula la carrera real con fatiga acumulada. {total_line(lr)}"})
 
-    days.append(sunday_optional(5 if not deload else 4))
+    days.append(sunday_rest())
 
     weeks.append({
         "num": w, "block": 1, "phase": 3, "phase_name": "Behobia · Fase 3 — Específico carrera",
@@ -402,7 +402,7 @@ print(f"Fase 4 añadida, total: {len(weeks)} semanas")
 # ================================================================
 # BLOQUE 2: TRANSICIÓN + BASE MARATÓN — semanas 22-33 (12 semanas)
 # Getafe media maratón (31 ene 2027) = semana 33
-# Nueva estructura: Mar/Jue fuerza, Mié intervalos, Sáb long run, Dom opcional/descanso
+# Nueva estructura: Mar/Jue fuerza, Mié intervalos, Sáb long run, Lun y Dom descanso real
 # ================================================================
 
 # ---- Semana 22: Recovery total post-Behobia ----
@@ -463,9 +463,9 @@ for i in range(5):
 
     days.append({"d":"SÁB","title":"Long Run progresivo" if not deload else "Long Run de descarga (Navidad)","type":"long","pace":Z2_LR,"dist":km(lr),
         "steps":[warm(2, Z2_LR, "Inicio"), main_continuous(lr-4, Z2_LR, "Cuerpo"), cool(2, Z1, "Final")],
-        "detail":f"Ritmo cómodo, FC<150. {'Semana de fiestas — disfruta, no fuerces.' if deload else 'Reconstruyendo la resistencia de base.'} {total_line(lr)}"})
+        "detail":f"Ritmo cómodo, FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). {'Semana de fiestas — disfruta, no fuerces.' if deload else 'Reconstruyendo la resistencia de base.'} {total_line(lr)}"})
 
-    days.append(sunday_optional(5 if not deload else 4))
+    days.append(sunday_rest())
 
     notes = ""
     if w == 27:
@@ -536,7 +536,7 @@ for i in range(5):
     if is_pretaper:
         days.append(rest_day("DOM", "Descanso total. Mañana toca disfrutar de Getafe con tu amigo."))
     else:
-        days.append(sunday_optional(5))
+        days.append(sunday_rest())
 
     weeks.append({
         "num": w, "block": 2, "phase": 2, "phase_name": "Transición · Construcción específica" if not is_pretaper else "Transición · Mini-taper pre-Getafe",
@@ -623,7 +623,7 @@ for i in range(5):
     if deload:
         days.append({"d":"SÁB","title":"Long Run de descarga","type":"long","pace":Z2_LR,"dist":km(lr),
             "steps":[warm(2, Z2_LR, "Inicio"), main_continuous(lr-4, Z2_LR, "Cuerpo"), cool(2, Z1, "Final")],
-            "detail":f"Semana de descarga: todo suave, sin ritmo. FC<150. {total_line(lr)}"})
+            "detail":f"Semana de descarga: todo suave, sin ritmo. FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). {total_line(lr)}"})
     else:
         mp_km = mp_km_A[i]
         is_big1 = (i == 3)  # week 37 - first "big" long run of the season
@@ -639,7 +639,7 @@ for i in range(5):
             ],
             "detail":detail})
 
-    days.append(sunday_optional(5 if not deload else 4))
+    days.append(sunday_rest())
 
     weeks.append({
         "num": w, "block": 3, "phase": 1, "phase_name": "Maratón Madrid · Fase A — Pico de volumen",
@@ -654,9 +654,9 @@ print(f"Fase A añadida, total: {len(weeks)} semanas")
 # ---- Fase B: semanas 39-42, específico maratón (4 semanas) ----
 # Rebote post-deload suavizado: S38(47km)->S39 now +13% (was +32%)
 # Long run: 25 -> 31km (slightly reduced from 26->32 to smooth progression)
-lr_B = [20, 22, 24, 27]
-vol_B = [47, 52, 56, 52]
-mp_km_B = [7, 8, 10, 13]
+lr_B = [20, 23, 26, 30]
+vol_B = [47, 52, 57, 54]
+mp_km_B = [7, 8, 10, 10]
 
 for i in range(4):
     w = i+39
@@ -679,7 +679,7 @@ for i in range(4):
     days.append(strength_plus_run("JUE", "A", 4 if not is_peak else 3))
 
     if is_peak:
-        days.append(rest_day("VIE", "Descanso extra antes del long run de 31km — el más importante del plan. Hidrátate bien hoy."))
+        days.append(rest_day("VIE", "Descanso extra antes del long run de 30km — el más importante del plan. Hidrátate bien hoy."))
     else:
         days.append({"d":"VIE","title":"Recovery Z1","type":"ez","pace":Z1,"dist":"25 min",
             "steps":[{"label":"Trote de recuperación","detail":f"25-30 min a FC {FC_Z1} · ritmo orientativo {Z1}/km"}],
@@ -692,7 +692,7 @@ for i in range(4):
                 main_continuous(lr-2-mp_km, Z2_LR, "Cuerpo suave"),
                 {"label":f"Últimos {mp_km}km a Ritmo Maratón (MP)","detail":f"{mp_km}km a {MP}/km · simula la segunda mitad del maratón"},
             ],
-            "detail":f"⭐⭐ LA SESIÓN CLAVE DE TODO EL PLAN. Practica aquí TODO lo de carrera: ropa, calzado, geles cada 45', hidratación. {total_line(lr)} · Si llega a costar mucho, no pasa nada — es la sesión más exigente y es normal sufrir."})
+            "detail":f"⭐⭐ LA SESIÓN CLAVE DE TODO EL PLAN. Practica aquí TODO lo de carrera: ropa, calzado, geles cada 25-30' (~60 g de carbohidrato/h), hidratación. {total_line(lr)} · Si llega a costar mucho, no pasa nada — es la sesión más exigente y es normal sufrir."})
     else:
         days.append({"d":"SÁB","title":f"Long Run + {mp_km}km a Ritmo Maratón","type":"long","pace":f"{Z2_LR} → {mp_km}km a {MP}","dist":km(lr),
             "steps":[
@@ -700,19 +700,19 @@ for i in range(4):
                 main_continuous(lr-2-mp_km, Z2_LR, "Cuerpo suave"),
                 {"label":f"Últimos {mp_km}km a Ritmo Maratón (MP)","detail":f"{mp_km}km a {MP}/km · FC objetivo según sensaciones"},
             ],
-            "detail":f"Practica nutrición: gel cada 45'-50' desde el inicio del tramo a MP. {total_line(lr)}"})
+            "detail":f"Practica nutrición: gel cada 25-30' desde el minuto 25 (~60 g de carbohidrato/h). {total_line(lr)}"})
 
     if is_peak:
         days.append({"d":"DOM","title":"Z1 recuperación post-long run","type":"ez","pace":Z1,"dist":km(3),
             "steps":[{"label":"Opcional","detail":f"3km muy suave a {Z1}/km, o caminar 30min"}],
             "detail":"Recuperación activa tras la sesión más dura del plan. Solo si las piernas lo agradecen. " + total_line(3)})
     else:
-        days.append(sunday_optional(5))
+        days.append(sunday_rest())
 
     weeks.append({
         "num": w, "block": 3, "phase": 2, "phase_name": "Maratón Madrid · Fase B — Específico maratón" if not is_peak else "Maratón Madrid · Fase B — ⭐ Pico del plan",
         "weekly_km": vol_B[i], "long_run": lr,
-        "focus": "Maximizar el tiempo a Ritmo Maratón en el long run. Practicar toda la logística de carrera (nutrición, equipo, calzado)." if not is_peak else "El long run de 31km con 17km a MP es la sesión más importante de toda la temporada — simula la segunda mitad del maratón con fatiga real.",
+        "focus": "Maximizar el tiempo a Ritmo Maratón en el long run. Practicar toda la logística de carrera (nutrición, equipo, calzado)." if not is_peak else "El long run de 30km con 10km a MP es la sesión más importante de toda la temporada — simula la segunda mitad del maratón con fatiga real.",
         "deload": False, "days": days
     })
 
@@ -754,7 +754,7 @@ for i in range(3):
         days.append({"d":"DOM","title":"🏆 MARATÓN DE MADRID","type":"race","pace":MP,"dist":"42,2 km",
             "steps":[
                 {"label":"Km 0-5","detail":f"MUY CONSERVADOR — 10-15\"/km más lento que {MP}. El error más común es salir rápido."},
-                {"label":"Km 5-30","detail":f"Asienta {MP}/km. Gel cada 45'. Hidratación en cada avituallamiento (pequeños sorbos)."},
+                {"label":"Km 5-30","detail":f"Asienta {MP}/km. Gel cada 25-30' (~60 g de carbohidrato/h) y 150-200 ml de agua/isotónica cada 15-20' a sorbos. Si hace calor, prioriza la FC y beber sobre el ritmo."},
                 {"label":"Km 30-38","detail":"La parte dura. Si el ritmo se resiente, prioriza mantener el esfuerzo constante sobre el ritmo exacto. Aquí se decide la carrera."},
                 {"label":"Km 38-42","detail":"Si quedan piernas, exprime. Si no, mantén la cadencia y cuenta los metros. Esto es lo que llevas meses entrenando."},
             ],
@@ -810,6 +810,68 @@ for ww in weeks:
 for ww in weeks:
     if ww["num"] == 45:
         ww["long_run"] = 42.2
+
+
+# ================================================================
+# AJUSTES POST-BEHOBIA (9 nov 2026) — primera maratón
+# Motivos: pesadez general, Behobia con falta de combustible/líquidos y calor,
+# entrenar casi todos los días. Todo lo de abajo es fácil de revertir.
+# ================================================================
+def strength_light_upper(d, run_km, why):
+    steps = [{"label": "1. Trote de activación", "detail": f"{run_km}km a {Z2}/km · FC<140 · solo activar"}]
+    light = [STRENGTH_B_STEPS[0], STRENGTH_B_STEPS[1], STRENGTH_A_STEPS[5]]
+    for idx, st in enumerate(light):
+        steps.append({"label": f"{idx+2}. " + st["label"].split(". ", 1)[-1], "detail": st["detail"]})
+    return {"d": d, "title": f"{run_km}km activación + Fuerza ligera (sin piernas)", "type": "strength",
+            "pace": "Fuerza ligera", "dist": f"{run_km}km + 20min", "steps": steps,
+            "detail": why + " " + total_line(run_km)}
+
+def _fuel_detail(w):
+    if w <= 32:
+        return ("Practica desde el principio: 40-50 g de carbohidrato/h (gel con glucosa+fructosa, no solo fructosa) "
+                "y 150-200 ml de agua cada 15-20' a sorbos, sin esperar a la sed. Desayuno rico en carbohidrato 2,5-3 h antes.")
+    if w <= 38:
+        return ("Sube a 50-60 g de carbohidrato/h (gel cada 25-30') y 150-200 ml cada 15-20' a sorbos. "
+                "Desayuno rico en carbohidrato 2,5-3 h antes.")
+    return ("60 g de carbohidrato/h (gel cada 25-30', empezando hacia el min 25) y 150-200 ml cada 15-20' a sorbos. "
+            "Ensaya aquí TODO lo del día de la carrera.")
+
+def _swap(wk, d, new_day):
+    for i, dd in enumerate(wk["days"]):
+        if dd["d"] == d:
+            wk["days"][i] = new_day
+            return
+    raise ValueError(f"day {d} not found in week {wk['num']}")
+
+for ww in weeks:
+    w = ww["num"]
+    # a) nutrición e hidratación en cada long run desde la semana 23
+    if w >= 23:
+        for dd in ww["days"]:
+            if dd.get("type") == "long":
+                dd["steps"].append({"label": "Nutrición e hidratación", "detail": _fuel_detail(w)})
+    # b) semana 23: fuerza con 2 series (primera semana de fuerza tras Behobia)
+    if w == 23:
+        for dd in ww["days"]:
+            if dd["d"] in ("MAR", "JUE") and dd.get("type") == "strength":
+                dd["detail"] += " Esta semana: 2 series por ejercicio en vez de 3 (primera fuerza tras la carrera)."
+    # c) semana 24: test de sudoración
+    if w == 24:
+        for dd in ww["days"]:
+            if dd["d"] == "SÁB":
+                dd["detail"] += " 🧪 Test de sudoración: pésate sin ropa antes y después y anota lo que bebes (1 kg perdido ≈ 1 L de sudor)."
+    # d) calor de abril
+    if 39 <= w <= 43:
+        ww["focus"] += (" Calor: la maratón es el 25 de abril; aclimata con algún rodaje Z2 en horas templadas (sin forzar) "
+                        "y ensaya la hidratación.")
+    # e) semana del long run más largo: sin tren inferior 2 días antes
+    if w == 42:
+        _swap(ww, "JUE", strength_light_upper("JUE", 3, "Sin tren inferior: faltan 2 días para el long run de 30 km."))
+        _swap(ww, "DOM", sunday_rest())
+    # f) semana de la maratón: sin fuerza de piernas
+    if w == 45:
+        _swap(ww, "MAR", strength_light_upper("MAR", 3, "Semana de carrera: solo empuje/tirón y core con cargas ligeras, sin tren inferior."))
+        _swap(ww, "JUE", rest_day("JUE", "Movilidad suave + foam roller. Sin fuerza esta semana (faltan 3 días para la maratón)."))
 
 
 if __name__ == "__main__":

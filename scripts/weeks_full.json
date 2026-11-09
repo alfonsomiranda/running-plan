@@ -124,7 +124,7 @@
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "40 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas"
+      "detail": "40 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
@@ -153,21 +153,15 @@
       "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
      }
     ],
-    "detail": "Ritmo cómodo, FC<150. Termina sintiéndote capaz de seguir 2-3km más — esa es la sensación correcta. Total: ~14 km"
+    "detail": "Ritmo cómodo, FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Termina sintiéndote capaz de seguir 2-3km más — esa es la sensación correcta. Total: ~14 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -297,7 +291,7 @@
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "40 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas"
+      "detail": "40 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
@@ -326,21 +320,15 @@
       "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
      }
     ],
-    "detail": "Ritmo cómodo, FC<150. Termina sintiéndote capaz de seguir 2-3km más — esa es la sensación correcta. Total: ~15 km"
+    "detail": "Ritmo cómodo, FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Termina sintiéndote capaz de seguir 2-3km más — esa es la sensación correcta. Total: ~15 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -470,7 +458,7 @@
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "40 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas"
+      "detail": "40 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
@@ -499,21 +487,15 @@
       "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
      }
     ],
-    "detail": "Ritmo cómodo, FC<150. Termina sintiéndote capaz de seguir 2-3km más — esa es la sensación correcta. Total: ~16 km"
+    "detail": "Ritmo cómodo, FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Termina sintiéndote capaz de seguir 2-3km más — esa es la sensación correcta. Total: ~16 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -643,7 +625,7 @@
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "40 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas"
+      "detail": "40 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
@@ -672,21 +654,15 @@
       "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
      }
     ],
-    "detail": "Ritmo cómodo, FC<150. Termina sintiéndote capaz de seguir 2-3km más — esa es la sensación correcta. Total: ~16 km"
+    "detail": "Ritmo cómodo, FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Termina sintiéndote capaz de seguir 2-3km más — esa es la sensación correcta. Total: ~16 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -816,7 +792,7 @@
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "30 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas"
+      "detail": "30 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
@@ -845,21 +821,15 @@
       "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
      }
     ],
-    "detail": "Ritmo cómodo toda la distancia, FC<150. Semana de descarga: recupera del bloque anterior, sin prisa. Total: ~15 km"
+    "detail": "Ritmo cómodo toda la distancia, FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Semana de descarga: recupera del bloque anterior, sin prisa. Total: ~15 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "4 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~4 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -989,7 +959,7 @@
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "40 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas"
+      "detail": "40 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
@@ -1018,21 +988,15 @@
       "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
      }
     ],
-    "detail": "Ritmo cómodo, FC<150. Termina sintiéndote capaz de seguir 2-3km más — esa es la sensación correcta. Total: ~16 km"
+    "detail": "Ritmo cómodo, FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Termina sintiéndote capaz de seguir 2-3km más — esa es la sensación correcta. Total: ~16 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -1187,21 +1151,15 @@
       "detail": "3 km a 5:00-5:10/km · FC 150-163 · simula final de carrera"
      }
     ],
-    "detail": "Primeros 14km a FC<150. Los últimos 3km suben a ritmo objetivo — sin recuperación entre tramos. Total: ~17 km"
+    "detail": "Primeros 14km a FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Los últimos 3km suben a ritmo objetivo — sin recuperación entre tramos. Total: ~17 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -1356,21 +1314,15 @@
       "detail": "3 km a 5:00-5:10/km · FC 150-163 · simula final de carrera"
      }
     ],
-    "detail": "Primeros 15km a FC<150. Los últimos 3km suben a ritmo objetivo — sin recuperación entre tramos. Total: ~18 km"
+    "detail": "Primeros 15km a FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Los últimos 3km suben a ritmo objetivo — sin recuperación entre tramos. Total: ~18 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -1525,21 +1477,15 @@
       "detail": "4 km a 5:00-5:10/km · FC 150-163 · simula final de carrera"
      }
     ],
-    "detail": "Primeros 14km a FC<150. Los últimos 4km suben a ritmo objetivo — sin recuperación entre tramos. Total: ~18 km"
+    "detail": "Primeros 14km a FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Los últimos 4km suben a ritmo objetivo — sin recuperación entre tramos. Total: ~18 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -1694,21 +1640,15 @@
       "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
      }
     ],
-    "detail": "Semana de descarga: todo suave, sin ritmo final. FC<150. Total: ~17 km"
+    "detail": "Semana de descarga: todo suave, sin ritmo final. FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Total: ~17 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "4 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~4 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -1863,21 +1803,15 @@
       "detail": "5 km a 5:00-5:10/km · FC 150-163 · simula final de carrera"
      }
     ],
-    "detail": "Primeros 13km a FC<150. Los últimos 5km suben a ritmo objetivo — sin recuperación entre tramos. Total: ~18 km"
+    "detail": "Primeros 13km a FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Los últimos 5km suben a ritmo objetivo — sin recuperación entre tramos. Total: ~18 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -2032,21 +1966,15 @@
       "detail": "5 km a 5:00-5:10/km · FC 150-163 · simula final de carrera"
      }
     ],
-    "detail": "Primeros 14km a FC<150. Los últimos 5km suben a ritmo objetivo — sin recuperación entre tramos. Total: ~19 km"
+    "detail": "Primeros 14km a FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Los últimos 5km suben a ritmo objetivo — sin recuperación entre tramos. Total: ~19 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -2201,21 +2129,15 @@
       "detail": "5 km a 5:00-5:10/km · FC 150-163 · simula final de carrera"
      }
     ],
-    "detail": "Primeros 15km a FC<150. Los últimos 5km suben a ritmo objetivo — sin recuperación entre tramos. Total: ~20 km"
+    "detail": "Primeros 15km a FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Los últimos 5km suben a ritmo objetivo — sin recuperación entre tramos. Total: ~20 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -2370,21 +2292,15 @@
       "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
      }
     ],
-    "detail": "Semana de descarga: todo suave, sin ritmo final. FC<150. Total: ~17 km"
+    "detail": "Semana de descarga: todo suave, sin ritmo final. FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Total: ~17 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "4 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~4 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -2510,7 +2426,7 @@
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "40 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas"
+      "detail": "40 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
@@ -2543,17 +2459,11 @@
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -2679,7 +2589,7 @@
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "40 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas"
+      "detail": "40 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
@@ -2712,17 +2622,11 @@
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -2848,7 +2752,7 @@
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "40 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas"
+      "detail": "40 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
@@ -2881,17 +2785,11 @@
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -3017,7 +2915,7 @@
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "30 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas"
+      "detail": "30 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
@@ -3050,17 +2948,11 @@
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "4 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~4 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -3657,7 +3549,7 @@
       "detail": "3×40\" plancha + 3×10 Pallof c/lado"
      }
     ],
-    "detail": "Ver tabla completa de 'Sesión A' (Piernas+Core) en la pestaña Fuerza. Trote corto antes de la fuerza como activación (no como entrenamiento aeróbico) — llega fresco a la fuerza. Total: ~3 km"
+    "detail": "Ver tabla completa de 'Sesión A' (Piernas+Core) en la pestaña Fuerza. Trote corto antes de la fuerza como activación (no como entrenamiento aeróbico) — llega fresco a la fuerza. Total: ~3 km Esta semana: 2 series por ejercicio en vez de 3 (primera fuerza tras la carrera)."
    },
    {
     "d": "MIÉ",
@@ -3717,7 +3609,7 @@
       "detail": "3×10 c/lado · 10kg/mano"
      }
     ],
-    "detail": "Ver tabla completa de 'Sesión B' (Cuerpo completo) en la pestaña Fuerza. Trote corto antes de la fuerza como activación (no como entrenamiento aeróbico) — llega fresco a la fuerza. Total: ~3 km"
+    "detail": "Ver tabla completa de 'Sesión B' (Cuerpo completo) en la pestaña Fuerza. Trote corto antes de la fuerza como activación (no como entrenamiento aeróbico) — llega fresco a la fuerza. Total: ~3 km Esta semana: 2 series por ejercicio en vez de 3 (primera fuerza tras la carrera)."
    },
    {
     "d": "VIE",
@@ -3728,7 +3620,7 @@
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "35 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas"
+      "detail": "35 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
@@ -3755,23 +3647,21 @@
      {
       "label": "Final",
       "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+     },
+     {
+      "label": "Nutrición e hidratación",
+      "detail": "Practica desde el principio: 40-50 g de carbohidrato/h (gel con glucosa+fructosa, no solo fructosa) y 150-200 ml de agua cada 15-20' a sorbos, sin esperar a la sed. Desayuno rico en carbohidrato 2,5-3 h antes."
      }
     ],
-    "detail": "Ritmo cómodo, FC<150. Reconstruyendo la resistencia de base. Total: ~13 km"
+    "detail": "Ritmo cómodo, FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Reconstruyendo la resistencia de base. Total: ~13 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -3901,7 +3791,7 @@
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "35 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas"
+      "detail": "35 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
@@ -3928,23 +3818,21 @@
      {
       "label": "Final",
       "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+     },
+     {
+      "label": "Nutrición e hidratación",
+      "detail": "Practica desde el principio: 40-50 g de carbohidrato/h (gel con glucosa+fructosa, no solo fructosa) y 150-200 ml de agua cada 15-20' a sorbos, sin esperar a la sed. Desayuno rico en carbohidrato 2,5-3 h antes."
      }
     ],
-    "detail": "Ritmo cómodo, FC<150. Reconstruyendo la resistencia de base. Total: ~14 km"
+    "detail": "Ritmo cómodo, FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Reconstruyendo la resistencia de base. Total: ~14 km 🧪 Test de sudoración: pésate sin ropa antes y después y anota lo que bebes (1 kg perdido ≈ 1 L de sudor)."
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -4074,7 +3962,7 @@
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "35 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas"
+      "detail": "35 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
@@ -4101,23 +3989,21 @@
      {
       "label": "Final",
       "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+     },
+     {
+      "label": "Nutrición e hidratación",
+      "detail": "Practica desde el principio: 40-50 g de carbohidrato/h (gel con glucosa+fructosa, no solo fructosa) y 150-200 ml de agua cada 15-20' a sorbos, sin esperar a la sed. Desayuno rico en carbohidrato 2,5-3 h antes."
      }
     ],
-    "detail": "Ritmo cómodo, FC<150. Reconstruyendo la resistencia de base. Total: ~15 km"
+    "detail": "Ritmo cómodo, FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Reconstruyendo la resistencia de base. Total: ~15 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -4247,7 +4133,7 @@
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "35 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas"
+      "detail": "35 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
@@ -4274,23 +4160,21 @@
      {
       "label": "Final",
       "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+     },
+     {
+      "label": "Nutrición e hidratación",
+      "detail": "Practica desde el principio: 40-50 g de carbohidrato/h (gel con glucosa+fructosa, no solo fructosa) y 150-200 ml de agua cada 15-20' a sorbos, sin esperar a la sed. Desayuno rico en carbohidrato 2,5-3 h antes."
      }
     ],
-    "detail": "Ritmo cómodo, FC<150. Reconstruyendo la resistencia de base. Total: ~16 km"
+    "detail": "Ritmo cómodo, FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Reconstruyendo la resistencia de base. Total: ~16 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -4420,7 +4304,7 @@
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "35 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas"
+      "detail": "35 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
@@ -4447,23 +4331,21 @@
      {
       "label": "Final",
       "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+     },
+     {
+      "label": "Nutrición e hidratación",
+      "detail": "Practica desde el principio: 40-50 g de carbohidrato/h (gel con glucosa+fructosa, no solo fructosa) y 150-200 ml de agua cada 15-20' a sorbos, sin esperar a la sed. Desayuno rico en carbohidrato 2,5-3 h antes."
      }
     ],
-    "detail": "Ritmo cómodo, FC<150. Semana de fiestas — disfruta, no fuerces. Total: ~14 km"
+    "detail": "Ritmo cómodo, FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Semana de fiestas — disfruta, no fuerces. Total: ~14 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "4 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~4 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -4616,23 +4498,21 @@
      {
       "label": "Últimos 2km a ritmo tempo",
       "detail": "2km a 5:07-5:37/km · FC 150-163"
+     },
+     {
+      "label": "Nutrición e hidratación",
+      "detail": "Practica desde el principio: 40-50 g de carbohidrato/h (gel con glucosa+fructosa, no solo fructosa) y 150-200 ml de agua cada 15-20' a sorbos, sin esperar a la sed. Desayuno rico en carbohidrato 2,5-3 h antes."
      }
     ],
     "detail": "Introduciendo progresivamente trabajo a ritmo más exigente en el long run, preparando el cuerpo para el ritmo de maratón (se calibrará tras Getafe). Total: ~15 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -4785,23 +4665,21 @@
      {
       "label": "Últimos 3km a ritmo tempo",
       "detail": "3km a 5:07-5:37/km · FC 150-163"
+     },
+     {
+      "label": "Nutrición e hidratación",
+      "detail": "Practica desde el principio: 40-50 g de carbohidrato/h (gel con glucosa+fructosa, no solo fructosa) y 150-200 ml de agua cada 15-20' a sorbos, sin esperar a la sed. Desayuno rico en carbohidrato 2,5-3 h antes."
      }
     ],
     "detail": "Introduciendo progresivamente trabajo a ritmo más exigente en el long run, preparando el cuerpo para el ritmo de maratón (se calibrará tras Getafe). Total: ~16 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -4954,23 +4832,21 @@
      {
       "label": "Últimos 4km a ritmo tempo",
       "detail": "4km a 5:07-5:37/km · FC 150-163"
+     },
+     {
+      "label": "Nutrición e hidratación",
+      "detail": "Practica desde el principio: 40-50 g de carbohidrato/h (gel con glucosa+fructosa, no solo fructosa) y 150-200 ml de agua cada 15-20' a sorbos, sin esperar a la sed. Desayuno rico en carbohidrato 2,5-3 h antes."
      }
     ],
     "detail": "Introduciendo progresivamente trabajo a ritmo más exigente en el long run, preparando el cuerpo para el ritmo de maratón (se calibrará tras Getafe). Total: ~17 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -5123,23 +4999,21 @@
      {
       "label": "Últimos 5km a ritmo tempo",
       "detail": "5km a 5:07-5:37/km · FC 150-163"
+     },
+     {
+      "label": "Nutrición e hidratación",
+      "detail": "Practica desde el principio: 40-50 g de carbohidrato/h (gel con glucosa+fructosa, no solo fructosa) y 150-200 ml de agua cada 15-20' a sorbos, sin esperar a la sed. Desayuno rico en carbohidrato 2,5-3 h antes."
      }
     ],
     "detail": "Introduciendo progresivamente trabajo a ritmo más exigente en el long run, preparando el cuerpo para el ritmo de maratón (se calibrará tras Getafe). Total: ~19 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -5286,6 +5160,10 @@
      {
       "label": "Final",
       "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+     },
+     {
+      "label": "Nutrición e hidratación",
+      "detail": "Practica desde el principio: 40-50 g de carbohidrato/h (gel con glucosa+fructosa, no solo fructosa) y 150-200 ml de agua cada 15-20' a sorbos, sin esperar a la sed. Desayuno rico en carbohidrato 2,5-3 h antes."
      }
     ],
     "detail": "Reducción de volumen — llega a Getafe con piernas frescas. Total: ~15 km"
@@ -5415,6 +5293,10 @@
      {
       "label": "Km 16-21",
       "detail": "Opcional: cierra a ritmo 5:00-5:10/km si te sientes bien, o mantén 5:07-5:37/km"
+     },
+     {
+      "label": "Nutrición e hidratación",
+      "detail": "Sube a 50-60 g de carbohidrato/h (gel cada 25-30') y 150-200 ml cada 15-20' a sorbos. Desayuno rico en carbohidrato 2,5-3 h antes."
      }
     ],
     "detail": "⭐ Esta carrera NO es un objetivo de tiempo — es tu long run de 21km con compañía y ambiente de carrera. Aprovecha para practicar nutrición/hidratación de carrera real. Sirve como excelente termómetro de cómo está tu resistencia de cara al maratón."
@@ -5570,23 +5452,21 @@
      {
       "label": "Últimos 3km a Ritmo Maratón (MP)",
       "detail": "3km a 5:15-5:25/km · FC objetivo según sensaciones, debe sentirse 'sostenible'"
+     },
+     {
+      "label": "Nutrición e hidratación",
+      "detail": "Sube a 50-60 g de carbohidrato/h (gel cada 25-30') y 150-200 ml cada 15-20' a sorbos. Desayuno rico en carbohidrato 2,5-3 h antes."
      }
     ],
     "detail": "⭐ El ritmo de maratón (MP=5:15-5:25/km) es una primera estimación — se recalibrará tras Getafe con tu tiempo real. La sensación debe ser 'podría mantener esto durante horas'. Total: ~17 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -5739,23 +5619,21 @@
      {
       "label": "Últimos 5km a Ritmo Maratón (MP)",
       "detail": "5km a 5:15-5:25/km · FC objetivo según sensaciones, debe sentirse 'sostenible'"
+     },
+     {
+      "label": "Nutrición e hidratación",
+      "detail": "Sube a 50-60 g de carbohidrato/h (gel cada 25-30') y 150-200 ml cada 15-20' a sorbos. Desayuno rico en carbohidrato 2,5-3 h antes."
      }
     ],
     "detail": "⭐ El ritmo de maratón (MP=5:15-5:25/km) es una primera estimación — se recalibrará tras Getafe con tu tiempo real. La sensación debe ser 'podría mantener esto durante horas'. Total: ~18 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -5908,23 +5786,21 @@
      {
       "label": "Últimos 7km a Ritmo Maratón (MP)",
       "detail": "7km a 5:15-5:25/km · FC objetivo según sensaciones, debe sentirse 'sostenible'"
+     },
+     {
+      "label": "Nutrición e hidratación",
+      "detail": "Sube a 50-60 g de carbohidrato/h (gel cada 25-30') y 150-200 ml cada 15-20' a sorbos. Desayuno rico en carbohidrato 2,5-3 h antes."
      }
     ],
     "detail": "⭐ El ritmo de maratón (MP=5:15-5:25/km) es una primera estimación — se recalibrará tras Getafe con tu tiempo real. La sensación debe ser 'podría mantener esto durante horas'. Total: ~20 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -6077,23 +5953,21 @@
      {
       "label": "Últimos 11km a Ritmo Maratón (MP)",
       "detail": "11km a 5:15-5:25/km · FC objetivo según sensaciones, debe sentirse 'sostenible'"
+     },
+     {
+      "label": "Nutrición e hidratación",
+      "detail": "Sube a 50-60 g de carbohidrato/h (gel cada 25-30') y 150-200 ml cada 15-20' a sorbos. Desayuno rico en carbohidrato 2,5-3 h antes."
      }
     ],
     "detail": "⭐ Segunda sesión larga clave de la temporada (la primera desde Getafe). Practica nutrición y equipo de carrera. Tras esta semana viene una descarga — aprovecha para asimilar. Total: ~24 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -6223,7 +6097,7 @@
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "30 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas"
+      "detail": "30 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Strides finales",
@@ -6254,23 +6128,21 @@
      {
       "label": "Final",
       "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+     },
+     {
+      "label": "Nutrición e hidratación",
+      "detail": "Sube a 50-60 g de carbohidrato/h (gel cada 25-30') y 150-200 ml cada 15-20' a sorbos. Desayuno rico en carbohidrato 2,5-3 h antes."
      }
     ],
-    "detail": "Semana de descarga: todo suave, sin ritmo. FC<150. Total: ~19 km"
+    "detail": "Semana de descarga: todo suave, sin ritmo. FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Total: ~19 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "4 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~4 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -6282,7 +6154,7 @@
   "phase_name": "Maratón Madrid · Fase B — Específico maratón",
   "weekly_km": 47,
   "long_run": 20,
-  "focus": "Maximizar el tiempo a Ritmo Maratón en el long run. Practicar toda la logística de carrera (nutrición, equipo, calzado).",
+  "focus": "Maximizar el tiempo a Ritmo Maratón en el long run. Practicar toda la logística de carrera (nutrición, equipo, calzado). Calor: la maratón es el 25 de abril; aclimata con algún rodaje Z2 en horas templadas (sin forzar) y ensaya la hidratación.",
   "deload": false,
   "days": [
    {
@@ -6419,23 +6291,21 @@
      {
       "label": "Últimos 7km a Ritmo Maratón (MP)",
       "detail": "7km a 5:15-5:25/km · FC objetivo según sensaciones"
+     },
+     {
+      "label": "Nutrición e hidratación",
+      "detail": "60 g de carbohidrato/h (gel cada 25-30', empezando hacia el min 25) y 150-200 ml cada 15-20' a sorbos. Ensaya aquí TODO lo del día de la carrera."
      }
     ],
-    "detail": "Practica nutrición: gel cada 45'-50' desde el inicio del tramo a MP. Total: ~20 km"
+    "detail": "Practica nutrición: gel cada 25-30' desde el minuto 25 (~60 g de carbohidrato/h). Total: ~20 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -6446,8 +6316,8 @@
   "phase": 2,
   "phase_name": "Maratón Madrid · Fase B — Específico maratón",
   "weekly_km": 52,
-  "long_run": 22,
-  "focus": "Maximizar el tiempo a Ritmo Maratón en el long run. Practicar toda la logística de carrera (nutrición, equipo, calzado).",
+  "long_run": 23,
+  "focus": "Maximizar el tiempo a Ritmo Maratón en el long run. Practicar toda la logística de carrera (nutrición, equipo, calzado). Calor: la maratón es el 25 de abril; aclimata con algún rodaje Z2 en horas templadas (sin forzar) y ensaya la hidratación.",
   "deload": false,
   "days": [
    {
@@ -6571,7 +6441,7 @@
     "title": "Long Run + 8km a Ritmo Maratón",
     "type": "long",
     "pace": "5:50-6:35 → 8km a 5:15-5:25",
-    "dist": "22 km",
+    "dist": "23 km",
     "steps": [
      {
       "label": "Inicio",
@@ -6579,28 +6449,26 @@
      },
      {
       "label": "Cuerpo suave",
-      "detail": "12 km a 5:50-6:35/km · FC 124-143"
+      "detail": "13 km a 5:50-6:35/km · FC 124-143"
      },
      {
       "label": "Últimos 8km a Ritmo Maratón (MP)",
       "detail": "8km a 5:15-5:25/km · FC objetivo según sensaciones"
+     },
+     {
+      "label": "Nutrición e hidratación",
+      "detail": "60 g de carbohidrato/h (gel cada 25-30', empezando hacia el min 25) y 150-200 ml cada 15-20' a sorbos. Ensaya aquí TODO lo del día de la carrera."
      }
     ],
-    "detail": "Practica nutrición: gel cada 45'-50' desde el inicio del tramo a MP. Total: ~22 km"
+    "detail": "Practica nutrición: gel cada 25-30' desde el minuto 25 (~60 g de carbohidrato/h). Total: ~23 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -6610,9 +6478,9 @@
   "block": 3,
   "phase": 2,
   "phase_name": "Maratón Madrid · Fase B — Específico maratón",
-  "weekly_km": 56,
-  "long_run": 24,
-  "focus": "Maximizar el tiempo a Ritmo Maratón en el long run. Practicar toda la logística de carrera (nutrición, equipo, calzado).",
+  "weekly_km": 57,
+  "long_run": 26,
+  "focus": "Maximizar el tiempo a Ritmo Maratón en el long run. Practicar toda la logística de carrera (nutrición, equipo, calzado). Calor: la maratón es el 25 de abril; aclimata con algún rodaje Z2 en horas templadas (sin forzar) y ensaya la hidratación.",
   "deload": false,
   "days": [
    {
@@ -6736,7 +6604,7 @@
     "title": "Long Run + 10km a Ritmo Maratón",
     "type": "long",
     "pace": "5:50-6:35 → 10km a 5:15-5:25",
-    "dist": "24 km",
+    "dist": "26 km",
     "steps": [
      {
       "label": "Inicio",
@@ -6744,28 +6612,26 @@
      },
      {
       "label": "Cuerpo suave",
-      "detail": "12 km a 5:50-6:35/km · FC 124-143"
+      "detail": "14 km a 5:50-6:35/km · FC 124-143"
      },
      {
       "label": "Últimos 10km a Ritmo Maratón (MP)",
       "detail": "10km a 5:15-5:25/km · FC objetivo según sensaciones"
+     },
+     {
+      "label": "Nutrición e hidratación",
+      "detail": "60 g de carbohidrato/h (gel cada 25-30', empezando hacia el min 25) y 150-200 ml cada 15-20' a sorbos. Ensaya aquí TODO lo del día de la carrera."
      }
     ],
-    "detail": "Practica nutrición: gel cada 45'-50' desde el inicio del tramo a MP. Total: ~24 km"
+    "detail": "Practica nutrición: gel cada 25-30' desde el minuto 25 (~60 g de carbohidrato/h). Total: ~26 km"
    },
    {
     "d": "DOM",
-    "title": "Z2 muy suave (opcional)",
-    "type": "ez",
-    "pace": "5:50-6:30",
-    "dist": "5 km",
-    "steps": [
-     {
-      "label": "Rodaje muy suave",
-      "detail": "30-40 min a FC <124-124 · ritmo orientativo 5:50-6:35/km · totalmente opcional"
-     }
-    ],
-    "detail": "Opcional: solo si llegas fresco tras el long run del sábado. Si hay fatiga, descansa. Total: ~5 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -6775,9 +6641,9 @@
   "block": 3,
   "phase": 2,
   "phase_name": "Maratón Madrid · Fase B — ⭐ Pico del plan",
-  "weekly_km": 52,
-  "long_run": 27,
-  "focus": "El long run de 31km con 17km a MP es la sesión más importante de toda la temporada — simula la segunda mitad del maratón con fatiga real.",
+  "weekly_km": 54,
+  "long_run": 30,
+  "focus": "El long run de 30km con 10km a MP es la sesión más importante de toda la temporada — simula la segunda mitad del maratón con fatiga real. Calor: la maratón es el 25 de abril; aclimata con algún rodaje Z2 en horas templadas (sin forzar) y ensaya la hidratación.",
   "deload": false,
   "days": [
    {
@@ -6846,41 +6712,29 @@
    },
    {
     "d": "JUE",
-    "title": "3km activación + Fuerza A",
+    "title": "3km activación + Fuerza ligera (sin piernas)",
     "type": "strength",
-    "pace": "Sesión A",
-    "dist": "3km + 35-40min",
+    "pace": "Fuerza ligera",
+    "dist": "3km + 20min",
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 5:37-6:35/km · FC<140 · solo activar"
      },
      {
-      "label": "2. Goblet Squat",
-      "detail": "3×15 · 10kg · descanso 60\""
+      "label": "2. Press banca/flexiones",
+      "detail": "3×12 · 50% RM · descanso 75\""
      },
      {
-      "label": "3. Staggered RDL",
-      "detail": "3×12 c/lado · 17.5kg · descanso 75\""
+      "label": "3. Remo mancuerna",
+      "detail": "3×12 c/lado · 20-22kg · descanso 60\""
      },
      {
-      "label": "4. Búlgara",
-      "detail": "3×10 c/lado · peso corporal · descanso 90\""
-     },
-     {
-      "label": "5. Puente glúteo c/pausa",
-      "detail": "3×12 · +10kg · descanso 60\""
-     },
-     {
-      "label": "6. Gemelo excéntrico",
-      "detail": "3×15 · bilateral · descanso 60\""
-     },
-     {
-      "label": "7. Plancha + Pallof",
+      "label": "4. Plancha + Pallof",
       "detail": "3×40\" plancha + 3×10 Pallof c/lado"
      }
     ],
-    "detail": "Ver tabla completa de 'Sesión A' (Piernas+Core) en la pestaña Fuerza. Trote corto antes de la fuerza como activación (no como entrenamiento aeróbico) — llega fresco a la fuerza. Total: ~3 km"
+    "detail": "Sin tren inferior: faltan 2 días para el long run de 30 km. Total: ~3 km"
    },
    {
     "d": "VIE",
@@ -6888,14 +6742,14 @@
     "type": "rest",
     "steps": [],
     "total": "0 km",
-    "detail": "Descanso extra antes del long run de 31km — el más importante del plan. Hidrátate bien hoy."
+    "detail": "Descanso extra antes del long run de 30km — el más importante del plan. Hidrátate bien hoy."
    },
    {
     "d": "SÁB",
-    "title": "🏆 Long Run más largo: 27km + 13km a MP",
+    "title": "🏆 Long Run más largo: 30km + 10km a MP",
     "type": "long",
-    "pace": "5:50-6:35 → 13km a 5:15-5:25",
-    "dist": "27 km",
+    "pace": "5:50-6:35 → 10km a 5:15-5:25",
+    "dist": "30 km",
     "steps": [
      {
       "label": "Inicio",
@@ -6903,28 +6757,26 @@
      },
      {
       "label": "Cuerpo suave",
-      "detail": "12 km a 5:50-6:35/km · FC 124-143"
+      "detail": "18 km a 5:50-6:35/km · FC 124-143"
      },
      {
-      "label": "Últimos 13km a Ritmo Maratón (MP)",
-      "detail": "13km a 5:15-5:25/km · simula la segunda mitad del maratón"
+      "label": "Últimos 10km a Ritmo Maratón (MP)",
+      "detail": "10km a 5:15-5:25/km · simula la segunda mitad del maratón"
+     },
+     {
+      "label": "Nutrición e hidratación",
+      "detail": "60 g de carbohidrato/h (gel cada 25-30', empezando hacia el min 25) y 150-200 ml cada 15-20' a sorbos. Ensaya aquí TODO lo del día de la carrera."
      }
     ],
-    "detail": "⭐⭐ LA SESIÓN CLAVE DE TODO EL PLAN. Practica aquí TODO lo de carrera: ropa, calzado, geles cada 45', hidratación. Total: ~27 km · Si llega a costar mucho, no pasa nada — es la sesión más exigente y es normal sufrir."
+    "detail": "⭐⭐ LA SESIÓN CLAVE DE TODO EL PLAN. Practica aquí TODO lo de carrera: ropa, calzado, geles cada 25-30' (~60 g de carbohidrato/h), hidratación. Total: ~30 km · Si llega a costar mucho, no pasa nada — es la sesión más exigente y es normal sufrir."
    },
    {
     "d": "DOM",
-    "title": "Z1 recuperación post-long run",
-    "type": "ez",
-    "pace": "6:47-7:41",
-    "dist": "3 km",
-    "steps": [
-     {
-      "label": "Opcional",
-      "detail": "3km muy suave a 6:47-7:41/km, o caminar 30min"
-     }
-    ],
-    "detail": "Recuperación activa tras la sesión más dura del plan. Solo si las piernas lo agradecen. Total: ~3 km"
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Descanso total. Recuperación tras el long run del sábado."
    }
   ],
   "milestone": null
@@ -6936,7 +6788,7 @@
   "phase_name": "Maratón Madrid · Fase C — Tapering",
   "weekly_km": 46,
   "long_run": 18,
-  "focus": "Reducir volumen progresivamente mientras se mantiene la sensación del ritmo objetivo. Llegar fresco, descansado y mentalmente preparado.",
+  "focus": "Reducir volumen progresivamente mientras se mantiene la sensación del ritmo objetivo. Llegar fresco, descansado y mentalmente preparado. Calor: la maratón es el 25 de abril; aclimata con algún rodaje Z2 en horas templadas (sin forzar) y ensaya la hidratación.",
   "deload": false,
   "days": [
    {
@@ -7069,6 +6921,10 @@
      {
       "label": "Últimos 6km a Ritmo Maratón",
       "detail": "6km a 5:15-5:25/km · recordar la sensación, sin fatiga"
+     },
+     {
+      "label": "Nutrición e hidratación",
+      "detail": "60 g de carbohidrato/h (gel cada 25-30', empezando hacia el min 25) y 150-200 ml cada 15-20' a sorbos. Ensaya aquí TODO lo del día de la carrera."
      }
     ],
     "detail": "Ritmo cómodo, reducción de volumen progresiva. Total: ~18 km"
@@ -7224,6 +7080,10 @@
      {
       "label": "Últimos 4km a Ritmo Maratón",
       "detail": "4km a 5:15-5:25/km · recordar la sensación, sin fatiga"
+     },
+     {
+      "label": "Nutrición e hidratación",
+      "detail": "60 g de carbohidrato/h (gel cada 25-30', empezando hacia el min 25) y 150-200 ml cada 15-20' a sorbos. Ensaya aquí TODO lo del día de la carrera."
      }
     ],
     "detail": "Ritmo cómodo, reducción de volumen progresiva. Total: ~12 km"
@@ -7259,41 +7119,29 @@
    },
    {
     "d": "MAR",
-    "title": "3km activación + Fuerza A",
+    "title": "3km activación + Fuerza ligera (sin piernas)",
     "type": "strength",
-    "pace": "Sesión A",
-    "dist": "3km + 35-40min",
+    "pace": "Fuerza ligera",
+    "dist": "3km + 20min",
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 5:37-6:35/km · FC<140 · solo activar"
      },
      {
-      "label": "2. Goblet Squat",
-      "detail": "3×15 · 10kg · descanso 60\""
+      "label": "2. Press banca/flexiones",
+      "detail": "3×12 · 50% RM · descanso 75\""
      },
      {
-      "label": "3. Staggered RDL",
-      "detail": "3×12 c/lado · 17.5kg · descanso 75\""
+      "label": "3. Remo mancuerna",
+      "detail": "3×12 c/lado · 20-22kg · descanso 60\""
      },
      {
-      "label": "4. Búlgara",
-      "detail": "3×10 c/lado · peso corporal · descanso 90\""
-     },
-     {
-      "label": "5. Puente glúteo c/pausa",
-      "detail": "3×12 · +10kg · descanso 60\""
-     },
-     {
-      "label": "6. Gemelo excéntrico",
-      "detail": "3×15 · bilateral · descanso 60\""
-     },
-     {
-      "label": "7. Plancha + Pallof",
+      "label": "4. Plancha + Pallof",
       "detail": "3×40\" plancha + 3×10 Pallof c/lado"
      }
     ],
-    "detail": "Ver tabla completa de 'Sesión A' (Piernas+Core) en la pestaña Fuerza. Trote corto antes de la fuerza como activación (no como entrenamiento aeróbico) — llega fresco a la fuerza. Total: ~3 km"
+    "detail": "Semana de carrera: solo empuje/tirón y core con cargas ligeras, sin tren inferior. Total: ~3 km"
    },
    {
     "d": "MIÉ",
@@ -7319,25 +7167,11 @@
    },
    {
     "d": "JUE",
-    "title": "Fuerza B (muy ligera)",
-    "type": "strength",
-    "pace": "Sesión B",
-    "dist": "15-20 min",
-    "steps": [
-     {
-      "label": "1. Press banca/flexiones",
-      "detail": "3×12 · 50% RM · descanso 75\""
-     },
-     {
-      "label": "2. Remo mancuerna",
-      "detail": "3×12 c/lado · 20-22kg · descanso 60\""
-     },
-     {
-      "label": "3. Hurdle hops",
-      "detail": "4×8 · peso corporal · descanso 90\""
-     }
-    ],
-    "detail": "Versión muy reducida — solo 3 ejercicios, cargas ligeras. Mantener activación sin generar fatiga 3 días antes."
+    "title": "Descanso total",
+    "type": "rest",
+    "steps": [],
+    "total": "0 km",
+    "detail": "Movilidad suave + foam roller. Sin fuerza esta semana (faltan 3 días para la maratón)."
    },
    {
     "d": "VIE",
@@ -7378,7 +7212,7 @@
      },
      {
       "label": "Km 5-30",
-      "detail": "Asienta 5:15-5:25/km. Gel cada 45'. Hidratación en cada avituallamiento (pequeños sorbos)."
+      "detail": "Asienta 5:15-5:25/km. Gel cada 25-30' (~60 g de carbohidrato/h) y 150-200 ml de agua/isotónica cada 15-20' a sorbos. Si hace calor, prioriza la FC y beber sobre el ritmo."
      },
      {
       "label": "Km 30-38",
