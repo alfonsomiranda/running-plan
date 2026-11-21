@@ -509,18 +509,17 @@
     document.querySelectorAll('.week-card').forEach(c => c.classList.remove('expanded'));
   }
   function expandCurrent() {
-    // Week 1 starts Monday 15 June 2026
+    // Week 1 starts Monday 15 June 2026; 45-week season
     const start = new Date(2026, 5, 15);
-    const now = new Date(2026, 5, 11); // "today" reference - update logic uses real date below
     const today = new Date();
     let diffDays = Math.floor((today - start) / (1000*60*60*24));
     let weekNum = Math.floor(diffDays / 7) + 1;
     if (weekNum < 1) weekNum = 1;
-    if (weekNum > 21) weekNum = 21;
+    if (weekNum > 45) weekNum = 45;
     collapseAll();
     const card = document.querySelectorAll('.week-card')[weekNum-1];
     card.classList.add('expanded');
-    card.scrollIntoView({behavior:'smooth', block:'start'});
+    card.scrollIntoView({behavior:'auto', block:'start'});
   }
 
   function scrollToWeek(n) {
@@ -530,10 +529,9 @@
     card.scrollIntoView({behavior:'smooth', block:'start'});
   }
 
-  // Expand week 1 by default
+  // Jump to the current week on load
   document.addEventListener('DOMContentLoaded', () => {
-    const first = document.querySelector('.week-card');
-    if (first) first.classList.add('expanded');
+    if (document.querySelectorAll('.week-card').length) expandCurrent();
   });
 </script>
 
