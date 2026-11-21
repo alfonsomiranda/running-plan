@@ -52,7 +52,15 @@ except (OSError, ValueError):
     _fit = {}
 _mp = _fit.get("zones", {}).get("MP", "5:15-5:25")
 _goal = _fit.get("mp_goal", "~3:45-3:50")
-body = body.replace("__MP__", _mp).replace("__MP_GOAL__", _goal)
+_MESES = ["", "enero", "febrero", "marzo", "abril", "mayo", "junio", "julio",
+          "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
+try:
+    _y, _m, _d = _fit.get("updated", "2026-06-15").split("-")
+    _updated = f"{int(_d)} de {_MESES[int(_m)]} de {_y}"
+except Exception:
+    _updated = _fit.get("updated", "—")
+body = (body.replace("__MP__", _mp).replace("__MP_GOAL__", _goal)
+             .replace("__UPDATED__", _updated))
 
 body = body.replace("__WEEKS__", weeks).replace("__PHASE_NAV__", phase_nav)
 
