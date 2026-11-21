@@ -16,25 +16,32 @@ import time
 import urllib.parse
 import urllib.request
 
+ENV_KEYS = ("STRAVA_CLIENT_ID", "STRAVA_CLIENT_SECRET", "STRAVA_REFRESH_TOKEN")
+ENV_MODE = all(os.environ.get(k) for k in ENV_KEYS)
 CREDS_PATH = os.environ.get(
     "STRAVA_CREDS",
     os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
                  os.pardir, "strava-credentials.json"),
 )
 CREDS_PATH = os.path.normpath(CREDS_PATH)
-OUT_PATH = os.environ.get(
-    "STRAVA_ACTIVITIES_OUT",
-    os.path.join(os.path.dirname(CREDS_PATH), "strava-activities.json"),
-)
+OUT_PATH = (os.environ.get("STRAVA_ACTIVITIES_OUT")
+            or os.path.join(os.getcwd(), "strava-activities.json"))
 SCOPE = "read,activity:read_all,profile:read_all"
 
 
 def load_creds():
+    if ENV_MODE:
+        return {"client_id": os.environ["STRAVA_CLIENT_ID"],
+                "client_secret": os.environ["STRAVA_CLIENT_SECRET"],
+                "refresh_token": os.environ["STRAVA_REFRESH_TOKEN"],
+                "expires_at": 0}
     with open(CREDS_PATH, encoding="utf-8") as f:
         return json.load(f)
 
 
 def save_creds(creds):
+    if ENV_MODE:  # nothing to persist: the refresh token is long-lived
+        return
     with open(CREDS_PATH, "w", encoding="utf-8") as f:
         json.dump(creds, f, indent=2)
     os.chmod(CREDS_PATH, 0o600)
