@@ -26,7 +26,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -59,20 +59,20 @@
     "d": "MIÉ",
     "title": "Cuestas 8×60\"",
     "type": "interval",
-    "pace": "4:18-4:45",
+    "pace": "5:05-5:30",
     "dist": "7 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie: 8 × 60\" en cuesta",
-      "detail": "8 × 60\" cuesta a 4:18-4:45/km · recuperación: bajada trotando muy suave (~90\")"
+      "detail": "8 × 60\" cuesta a 5:05-5:30/km · recuperación: bajada trotando muy suave (~90\")"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Busca una cuesta de 4-6% que dure ~60-80m. Esfuerzo Z5 (170-180 FC), sube fuerte sin perder técnica. Total: ~7 km"
@@ -86,7 +86,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -119,16 +119,16 @@
     "d": "VIE",
     "title": "Z2 suave",
     "type": "ez",
-    "pace": "5:37-6:35",
+    "pace": "6:00-6:50",
     "dist": "35-40 min",
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "40 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
+      "detail": "40 min a FC 124-143 · ritmo orientativo 6:00-6:50/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "FC 124-143. Día de transición antes del long run del sábado. Rige la FC, no el ritmo."
@@ -137,20 +137,20 @@
     "d": "SÁB",
     "title": "Long Run progresivo",
     "type": "long",
-    "pace": "5:50-6:35",
+    "pace": "6:10-6:50",
     "dist": "14 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo del rodaje",
-      "detail": "10 km a 5:50-6:35/km · FC 124-143"
+      "detail": "10 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Final",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Ritmo cómodo, FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Termina sintiéndote capaz de seguir 2-3km más — esa es la sensación correcta. Total: ~14 km"
@@ -193,7 +193,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -226,23 +226,23 @@
     "d": "MIÉ",
     "title": "6×400m",
     "type": "interval",
-    "pace": "4:18-4:45",
+    "pace": "5:05-5:30",
     "dist": "7 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie: 6 × 400m",
-      "detail": "6 × 400m a 4:18-4:45/km · recuperación: 400m trote muy suave (~2')"
+      "detail": "6 × 400m a 5:05-5:30/km · recuperación: 400m trote muy suave (~2')"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
-    "detail": "400m a 4:18-4:45/km (ritmo ~1:47-1:51 por 400m). Recuperación trotando, no caminando. Total: ~7 km"
+    "detail": "400m a 5:05-5:30/km (ritmo ~1:47-1:51 por 400m). Recuperación trotando, no caminando. Total: ~7 km"
    },
    {
     "d": "JUE",
@@ -253,7 +253,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -286,16 +286,16 @@
     "d": "VIE",
     "title": "Z2 suave",
     "type": "ez",
-    "pace": "5:37-6:35",
+    "pace": "6:00-6:50",
     "dist": "35-40 min",
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "40 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
+      "detail": "40 min a FC 124-143 · ritmo orientativo 6:00-6:50/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "FC 124-143. Día de transición antes del long run del sábado. Rige la FC, no el ritmo."
@@ -304,20 +304,20 @@
     "d": "SÁB",
     "title": "Long Run progresivo",
     "type": "long",
-    "pace": "5:50-6:35",
+    "pace": "6:10-6:50",
     "dist": "15 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo del rodaje",
-      "detail": "11 km a 5:50-6:35/km · FC 124-143"
+      "detail": "11 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Final",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Ritmo cómodo, FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Termina sintiéndote capaz de seguir 2-3km más — esa es la sensación correcta. Total: ~15 km"
@@ -360,7 +360,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -393,20 +393,20 @@
     "d": "MIÉ",
     "title": "Cuestas 8×60\"",
     "type": "interval",
-    "pace": "4:18-4:45",
+    "pace": "5:05-5:30",
     "dist": "7 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie: 8 × 60\" en cuesta",
-      "detail": "8 × 60\" cuesta a 4:18-4:45/km · recuperación: bajada trotando muy suave (~90\")"
+      "detail": "8 × 60\" cuesta a 5:05-5:30/km · recuperación: bajada trotando muy suave (~90\")"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Busca una cuesta de 4-6% que dure ~60-80m. Esfuerzo Z5 (170-180 FC), sube fuerte sin perder técnica. Total: ~7 km"
@@ -420,7 +420,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -453,16 +453,16 @@
     "d": "VIE",
     "title": "Z2 suave",
     "type": "ez",
-    "pace": "5:37-6:35",
+    "pace": "6:00-6:50",
     "dist": "35-40 min",
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "40 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
+      "detail": "40 min a FC 124-143 · ritmo orientativo 6:00-6:50/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "FC 124-143. Día de transición antes del long run del sábado. Rige la FC, no el ritmo."
@@ -471,20 +471,20 @@
     "d": "SÁB",
     "title": "Long Run progresivo",
     "type": "long",
-    "pace": "5:50-6:35",
+    "pace": "6:10-6:50",
     "dist": "16 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo del rodaje",
-      "detail": "12 km a 5:50-6:35/km · FC 124-143"
+      "detail": "12 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Final",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Ritmo cómodo, FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Termina sintiéndote capaz de seguir 2-3km más — esa es la sensación correcta. Total: ~16 km"
@@ -527,7 +527,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -560,23 +560,23 @@
     "d": "MIÉ",
     "title": "6×400m",
     "type": "interval",
-    "pace": "4:18-4:45",
+    "pace": "5:05-5:30",
     "dist": "7 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie: 6 × 400m",
-      "detail": "6 × 400m a 4:18-4:45/km · recuperación: 400m trote muy suave (~2')"
+      "detail": "6 × 400m a 5:05-5:30/km · recuperación: 400m trote muy suave (~2')"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
-    "detail": "400m a 4:18-4:45/km (ritmo ~1:47-1:51 por 400m). Recuperación trotando, no caminando. Total: ~7 km"
+    "detail": "400m a 5:05-5:30/km (ritmo ~1:47-1:51 por 400m). Recuperación trotando, no caminando. Total: ~7 km"
    },
    {
     "d": "JUE",
@@ -587,7 +587,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -620,16 +620,16 @@
     "d": "VIE",
     "title": "Z2 suave",
     "type": "ez",
-    "pace": "5:37-6:35",
+    "pace": "6:00-6:50",
     "dist": "35-40 min",
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "40 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
+      "detail": "40 min a FC 124-143 · ritmo orientativo 6:00-6:50/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "FC 124-143. Día de transición antes del long run del sábado. Rige la FC, no el ritmo."
@@ -638,20 +638,20 @@
     "d": "SÁB",
     "title": "Long Run progresivo",
     "type": "long",
-    "pace": "5:50-6:35",
+    "pace": "6:10-6:50",
     "dist": "16 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo del rodaje",
-      "detail": "12 km a 5:50-6:35/km · FC 124-143"
+      "detail": "12 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Final",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Ritmo cómodo, FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Termina sintiéndote capaz de seguir 2-3km más — esa es la sensación correcta. Total: ~16 km"
@@ -694,7 +694,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -727,20 +727,20 @@
     "d": "MIÉ",
     "title": "Cuestas 8×60\"",
     "type": "interval",
-    "pace": "4:18-4:45",
+    "pace": "5:05-5:30",
     "dist": "5 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie: 8 × 60\" en cuesta",
-      "detail": "8 × 60\" cuesta a 4:18-4:45/km · recuperación: bajada trotando muy suave (~90\")"
+      "detail": "8 × 60\" cuesta a 5:05-5:30/km · recuperación: bajada trotando muy suave (~90\")"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Busca una cuesta de 4-6% que dure ~60-80m. Esfuerzo Z5 (170-180 FC), sube fuerte sin perder técnica. Total: ~5 km"
@@ -754,7 +754,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -787,16 +787,16 @@
     "d": "VIE",
     "title": "Z2 suave",
     "type": "ez",
-    "pace": "5:37-6:35",
+    "pace": "6:00-6:50",
     "dist": "35-40 min",
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "30 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
+      "detail": "30 min a FC 124-143 · ritmo orientativo 6:00-6:50/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "FC 124-143. Día de transición antes del long run del sábado. Rige la FC, no el ritmo."
@@ -805,20 +805,20 @@
     "d": "SÁB",
     "title": "Long Run de recuperación",
     "type": "long",
-    "pace": "5:50-6:35",
+    "pace": "6:10-6:50",
     "dist": "15 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo del rodaje",
-      "detail": "11 km a 5:50-6:35/km · FC 124-143"
+      "detail": "11 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Final",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Ritmo cómodo toda la distancia, FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Semana de descarga: recupera del bloque anterior, sin prisa. Total: ~15 km"
@@ -861,7 +861,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -894,23 +894,23 @@
     "d": "MIÉ",
     "title": "6×400m",
     "type": "interval",
-    "pace": "4:18-4:45",
+    "pace": "5:05-5:30",
     "dist": "7 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie: 6 × 400m",
-      "detail": "6 × 400m a 4:18-4:45/km · recuperación: 400m trote muy suave (~2')"
+      "detail": "6 × 400m a 5:05-5:30/km · recuperación: 400m trote muy suave (~2')"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
-    "detail": "400m a 4:18-4:45/km (ritmo ~1:47-1:51 por 400m). Recuperación trotando, no caminando. Total: ~7 km"
+    "detail": "400m a 5:05-5:30/km (ritmo ~1:47-1:51 por 400m). Recuperación trotando, no caminando. Total: ~7 km"
    },
    {
     "d": "JUE",
@@ -921,7 +921,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -954,16 +954,16 @@
     "d": "VIE",
     "title": "Z2 suave",
     "type": "ez",
-    "pace": "5:37-6:35",
+    "pace": "6:00-6:50",
     "dist": "35-40 min",
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "40 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
+      "detail": "40 min a FC 124-143 · ritmo orientativo 6:00-6:50/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "FC 124-143. Día de transición antes del long run del sábado. Rige la FC, no el ritmo."
@@ -972,20 +972,20 @@
     "d": "SÁB",
     "title": "Long Run progresivo",
     "type": "long",
-    "pace": "5:50-6:35",
+    "pace": "6:10-6:50",
     "dist": "16 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo del rodaje",
-      "detail": "12 km a 5:50-6:35/km · FC 124-143"
+      "detail": "12 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Final",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Ritmo cómodo, FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Termina sintiéndote capaz de seguir 2-3km más — esa es la sensación correcta. Total: ~16 km"
@@ -1028,7 +1028,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -1061,23 +1061,23 @@
     "d": "MIÉ",
     "title": "5×1000m",
     "type": "interval",
-    "pace": "4:45-5:07",
+    "pace": "5:30-5:50",
     "dist": "11 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie: 5 × 1000m",
-      "detail": "5 × 1000m a 4:45-5:07/km · recuperación: 90\" trote suave"
+      "detail": "5 × 1000m a 5:30-5:50/km · recuperación: 90\" trote suave"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
-    "detail": "1000m a 4:45-5:07/km (~4:44-5:03 cada km), FC 160-175. Recuperación trotando, no parado. Total: ~11 km"
+    "detail": "1000m a 5:30-5:50/km (~4:44-5:03 cada km), FC 160-175. Recuperación trotando, no parado. Total: ~11 km"
    },
    {
     "d": "JUE",
@@ -1088,7 +1088,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -1121,12 +1121,12 @@
     "d": "VIE",
     "title": "Recovery suave",
     "type": "ez",
-    "pace": "6:47-7:41",
+    "pace": "6:50-7:45",
     "dist": "25-30 min",
     "steps": [
      {
       "label": "Trote de recuperación",
-      "detail": "25-30 min a FC <124 · ritmo orientativo 6:47-7:41/km · sin objetivo de distancia"
+      "detail": "25-30 min a FC <124 · ritmo orientativo 6:50-7:45/km · sin objetivo de distancia"
      }
     ],
     "detail": "Regeneración activa. FC por debajo de 124 toda la sesión. Deja las piernas listas para el long run del sábado."
@@ -1135,20 +1135,20 @@
     "d": "SÁB",
     "title": "Long Run + ritmo final",
     "type": "long",
-    "pace": "5:50-6:35 → 3km a 5:00-5:10",
+    "pace": "6:10-6:50 → 3km a 5:55-6:05",
     "dist": "17 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo suave",
-      "detail": "12 km a 5:50-6:35/km · FC 124-143"
+      "detail": "12 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Últimos 3km a ritmo Behobia",
-      "detail": "3 km a 5:00-5:10/km · FC 150-163 · simula final de carrera"
+      "detail": "3 km a 5:55-6:05/km · FC 150-163 · simula final de carrera"
      }
     ],
     "detail": "Primeros 14km a FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Los últimos 3km suben a ritmo objetivo — sin recuperación entre tramos. Total: ~17 km"
@@ -1191,7 +1191,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -1224,23 +1224,23 @@
     "d": "MIÉ",
     "title": "Fartlek 6×(3'/2')",
     "type": "interval",
-    "pace": "4:45-5:07",
+    "pace": "5:30-5:50",
     "dist": "11 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Fartlek: 6 × (3' fuerte / 2' suave)",
-      "detail": "6 × 3' fuerte a 4:45-5:07/km · recuperación: 2' trote suave (Z1-Z2)"
+      "detail": "6 × 3' fuerte a 5:30-5:50/km · recuperación: 2' trote suave (Z1-Z2)"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
-    "detail": "3' a 4:45-5:07/km, FC 160-175, seguido de 2' de trote de recuperación. Total: ~11 km"
+    "detail": "3' a 5:30-5:50/km, FC 160-175, seguido de 2' de trote de recuperación. Total: ~11 km"
    },
    {
     "d": "JUE",
@@ -1251,7 +1251,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -1284,12 +1284,12 @@
     "d": "VIE",
     "title": "Recovery suave",
     "type": "ez",
-    "pace": "6:47-7:41",
+    "pace": "6:50-7:45",
     "dist": "25-30 min",
     "steps": [
      {
       "label": "Trote de recuperación",
-      "detail": "25-30 min a FC <124 · ritmo orientativo 6:47-7:41/km · sin objetivo de distancia"
+      "detail": "25-30 min a FC <124 · ritmo orientativo 6:50-7:45/km · sin objetivo de distancia"
      }
     ],
     "detail": "Regeneración activa. FC por debajo de 124 toda la sesión. Deja las piernas listas para el long run del sábado."
@@ -1298,20 +1298,20 @@
     "d": "SÁB",
     "title": "Long Run + ritmo final",
     "type": "long",
-    "pace": "5:50-6:35 → 3km a 5:00-5:10",
+    "pace": "6:10-6:50 → 3km a 5:55-6:05",
     "dist": "18 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo suave",
-      "detail": "13 km a 5:50-6:35/km · FC 124-143"
+      "detail": "13 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Últimos 3km a ritmo Behobia",
-      "detail": "3 km a 5:00-5:10/km · FC 150-163 · simula final de carrera"
+      "detail": "3 km a 5:55-6:05/km · FC 150-163 · simula final de carrera"
      }
     ],
     "detail": "Primeros 15km a FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Los últimos 3km suben a ritmo objetivo — sin recuperación entre tramos. Total: ~18 km"
@@ -1354,7 +1354,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -1387,23 +1387,23 @@
     "d": "MIÉ",
     "title": "5×1000m",
     "type": "interval",
-    "pace": "4:45-5:07",
+    "pace": "5:30-5:50",
     "dist": "11 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie: 5 × 1000m",
-      "detail": "5 × 1000m a 4:45-5:07/km · recuperación: 90\" trote suave"
+      "detail": "5 × 1000m a 5:30-5:50/km · recuperación: 90\" trote suave"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
-    "detail": "1000m a 4:45-5:07/km (~4:44-5:03 cada km), FC 160-175. Recuperación trotando, no parado. Total: ~11 km"
+    "detail": "1000m a 5:30-5:50/km (~4:44-5:03 cada km), FC 160-175. Recuperación trotando, no parado. Total: ~11 km"
    },
    {
     "d": "JUE",
@@ -1414,7 +1414,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -1447,12 +1447,12 @@
     "d": "VIE",
     "title": "Recovery suave",
     "type": "ez",
-    "pace": "6:47-7:41",
+    "pace": "6:50-7:45",
     "dist": "25-30 min",
     "steps": [
      {
       "label": "Trote de recuperación",
-      "detail": "25-30 min a FC <124 · ritmo orientativo 6:47-7:41/km · sin objetivo de distancia"
+      "detail": "25-30 min a FC <124 · ritmo orientativo 6:50-7:45/km · sin objetivo de distancia"
      }
     ],
     "detail": "Regeneración activa. FC por debajo de 124 toda la sesión. Deja las piernas listas para el long run del sábado."
@@ -1461,20 +1461,20 @@
     "d": "SÁB",
     "title": "Long Run + ritmo final",
     "type": "long",
-    "pace": "5:50-6:35 → 4km a 5:00-5:10",
+    "pace": "6:10-6:50 → 4km a 5:55-6:05",
     "dist": "18 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo suave",
-      "detail": "12 km a 5:50-6:35/km · FC 124-143"
+      "detail": "12 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Últimos 4km a ritmo Behobia",
-      "detail": "4 km a 5:00-5:10/km · FC 150-163 · simula final de carrera"
+      "detail": "4 km a 5:55-6:05/km · FC 150-163 · simula final de carrera"
      }
     ],
     "detail": "Primeros 14km a FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Los últimos 4km suben a ritmo objetivo — sin recuperación entre tramos. Total: ~18 km"
@@ -1517,7 +1517,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -1550,16 +1550,16 @@
     "d": "MIÉ",
     "title": "Z2 + strides",
     "type": "ez",
-    "pace": "5:37-6:35",
+    "pace": "6:00-6:50",
     "dist": "6 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "1.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "1.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo",
-      "detail": "3 km a 5:37-6:35/km · FC 124-143"
+      "detail": "3 km a 6:00-6:50/km · FC 124-143"
      },
      {
       "label": "Strides finales",
@@ -1577,7 +1577,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -1610,12 +1610,12 @@
     "d": "VIE",
     "title": "Recovery suave",
     "type": "ez",
-    "pace": "6:47-7:41",
+    "pace": "6:50-7:45",
     "dist": "25-30 min",
     "steps": [
      {
       "label": "Trote de recuperación",
-      "detail": "25-30 min a FC <124 · ritmo orientativo 6:47-7:41/km · sin objetivo de distancia"
+      "detail": "25-30 min a FC <124 · ritmo orientativo 6:50-7:45/km · sin objetivo de distancia"
      }
     ],
     "detail": "Regeneración activa. FC por debajo de 124 toda la sesión. Deja las piernas listas para el long run del sábado."
@@ -1624,20 +1624,20 @@
     "d": "SÁB",
     "title": "Long Run de descarga",
     "type": "long",
-    "pace": "5:50-6:35",
+    "pace": "6:10-6:50",
     "dist": "17 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo",
-      "detail": "13 km a 5:50-6:35/km · FC 124-143"
+      "detail": "13 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Final",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Semana de descarga: todo suave, sin ritmo final. FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Total: ~17 km"
@@ -1680,7 +1680,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -1713,23 +1713,23 @@
     "d": "MIÉ",
     "title": "5×1000m",
     "type": "interval",
-    "pace": "4:45-5:07",
+    "pace": "5:30-5:50",
     "dist": "11 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie: 5 × 1000m",
-      "detail": "5 × 1000m a 4:45-5:07/km · recuperación: 90\" trote suave"
+      "detail": "5 × 1000m a 5:30-5:50/km · recuperación: 90\" trote suave"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
-    "detail": "1000m a 4:45-5:07/km (~4:44-5:03 cada km), FC 160-175. Recuperación trotando, no parado. Total: ~11 km"
+    "detail": "1000m a 5:30-5:50/km (~4:44-5:03 cada km), FC 160-175. Recuperación trotando, no parado. Total: ~11 km"
    },
    {
     "d": "JUE",
@@ -1740,7 +1740,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -1773,12 +1773,12 @@
     "d": "VIE",
     "title": "Recovery suave",
     "type": "ez",
-    "pace": "6:47-7:41",
+    "pace": "6:50-7:45",
     "dist": "25-30 min",
     "steps": [
      {
       "label": "Trote de recuperación",
-      "detail": "25-30 min a FC <124 · ritmo orientativo 6:47-7:41/km · sin objetivo de distancia"
+      "detail": "25-30 min a FC <124 · ritmo orientativo 6:50-7:45/km · sin objetivo de distancia"
      }
     ],
     "detail": "Regeneración activa. FC por debajo de 124 toda la sesión. Deja las piernas listas para el long run del sábado."
@@ -1787,20 +1787,20 @@
     "d": "SÁB",
     "title": "Long Run + ritmo final",
     "type": "long",
-    "pace": "5:50-6:35 → 5km a 5:00-5:10",
+    "pace": "6:10-6:50 → 5km a 5:55-6:05",
     "dist": "18 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo suave",
-      "detail": "11 km a 5:50-6:35/km · FC 124-143"
+      "detail": "11 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Últimos 5km a ritmo Behobia",
-      "detail": "5 km a 5:00-5:10/km · FC 150-163 · simula final de carrera"
+      "detail": "5 km a 5:55-6:05/km · FC 150-163 · simula final de carrera"
      }
     ],
     "detail": "Primeros 13km a FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Los últimos 5km suben a ritmo objetivo — sin recuperación entre tramos. Total: ~18 km"
@@ -1843,7 +1843,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -1876,23 +1876,23 @@
     "d": "MIÉ",
     "title": "Fartlek 6×(3'/2')",
     "type": "interval",
-    "pace": "4:45-5:07",
+    "pace": "5:30-5:50",
     "dist": "11 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Fartlek: 6 × (3' fuerte / 2' suave)",
-      "detail": "6 × 3' fuerte a 4:45-5:07/km · recuperación: 2' trote suave (Z1-Z2)"
+      "detail": "6 × 3' fuerte a 5:30-5:50/km · recuperación: 2' trote suave (Z1-Z2)"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
-    "detail": "3' a 4:45-5:07/km, FC 160-175, seguido de 2' de trote de recuperación. Total: ~11 km"
+    "detail": "3' a 5:30-5:50/km, FC 160-175, seguido de 2' de trote de recuperación. Total: ~11 km"
    },
    {
     "d": "JUE",
@@ -1903,7 +1903,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -1936,12 +1936,12 @@
     "d": "VIE",
     "title": "Recovery suave",
     "type": "ez",
-    "pace": "6:47-7:41",
+    "pace": "6:50-7:45",
     "dist": "25-30 min",
     "steps": [
      {
       "label": "Trote de recuperación",
-      "detail": "25-30 min a FC <124 · ritmo orientativo 6:47-7:41/km · sin objetivo de distancia"
+      "detail": "25-30 min a FC <124 · ritmo orientativo 6:50-7:45/km · sin objetivo de distancia"
      }
     ],
     "detail": "Regeneración activa. FC por debajo de 124 toda la sesión. Deja las piernas listas para el long run del sábado."
@@ -1950,20 +1950,20 @@
     "d": "SÁB",
     "title": "Long Run + ritmo final",
     "type": "long",
-    "pace": "5:50-6:35 → 5km a 5:00-5:10",
+    "pace": "6:10-6:50 → 5km a 5:55-6:05",
     "dist": "19 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo suave",
-      "detail": "12 km a 5:50-6:35/km · FC 124-143"
+      "detail": "12 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Últimos 5km a ritmo Behobia",
-      "detail": "5 km a 5:00-5:10/km · FC 150-163 · simula final de carrera"
+      "detail": "5 km a 5:55-6:05/km · FC 150-163 · simula final de carrera"
      }
     ],
     "detail": "Primeros 14km a FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Los últimos 5km suben a ritmo objetivo — sin recuperación entre tramos. Total: ~19 km"
@@ -2006,7 +2006,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -2039,23 +2039,23 @@
     "d": "MIÉ",
     "title": "5×1000m",
     "type": "interval",
-    "pace": "4:45-5:07",
+    "pace": "5:30-5:50",
     "dist": "11 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie: 5 × 1000m",
-      "detail": "5 × 1000m a 4:45-5:07/km · recuperación: 90\" trote suave"
+      "detail": "5 × 1000m a 5:30-5:50/km · recuperación: 90\" trote suave"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
-    "detail": "1000m a 4:45-5:07/km (~4:44-5:03 cada km), FC 160-175. Recuperación trotando, no parado. Total: ~11 km"
+    "detail": "1000m a 5:30-5:50/km (~4:44-5:03 cada km), FC 160-175. Recuperación trotando, no parado. Total: ~11 km"
    },
    {
     "d": "JUE",
@@ -2066,7 +2066,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -2099,12 +2099,12 @@
     "d": "VIE",
     "title": "Recovery suave",
     "type": "ez",
-    "pace": "6:47-7:41",
+    "pace": "6:50-7:45",
     "dist": "25-30 min",
     "steps": [
      {
       "label": "Trote de recuperación",
-      "detail": "25-30 min a FC <124 · ritmo orientativo 6:47-7:41/km · sin objetivo de distancia"
+      "detail": "25-30 min a FC <124 · ritmo orientativo 6:50-7:45/km · sin objetivo de distancia"
      }
     ],
     "detail": "Regeneración activa. FC por debajo de 124 toda la sesión. Deja las piernas listas para el long run del sábado."
@@ -2113,20 +2113,20 @@
     "d": "SÁB",
     "title": "Long Run + ritmo final",
     "type": "long",
-    "pace": "5:50-6:35 → 5km a 5:00-5:10",
+    "pace": "6:10-6:50 → 5km a 5:55-6:05",
     "dist": "20 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo suave",
-      "detail": "13 km a 5:50-6:35/km · FC 124-143"
+      "detail": "13 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Últimos 5km a ritmo Behobia",
-      "detail": "5 km a 5:00-5:10/km · FC 150-163 · simula final de carrera"
+      "detail": "5 km a 5:55-6:05/km · FC 150-163 · simula final de carrera"
      }
     ],
     "detail": "Primeros 15km a FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Los últimos 5km suben a ritmo objetivo — sin recuperación entre tramos. Total: ~20 km"
@@ -2169,7 +2169,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -2202,16 +2202,16 @@
     "d": "MIÉ",
     "title": "Z2 + strides",
     "type": "ez",
-    "pace": "5:37-6:35",
+    "pace": "6:00-6:50",
     "dist": "6 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "1.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "1.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo",
-      "detail": "3 km a 5:37-6:35/km · FC 124-143"
+      "detail": "3 km a 6:00-6:50/km · FC 124-143"
      },
      {
       "label": "Strides finales",
@@ -2229,7 +2229,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -2262,12 +2262,12 @@
     "d": "VIE",
     "title": "Recovery suave",
     "type": "ez",
-    "pace": "6:47-7:41",
+    "pace": "6:50-7:45",
     "dist": "25-30 min",
     "steps": [
      {
       "label": "Trote de recuperación",
-      "detail": "25-30 min a FC <124 · ritmo orientativo 6:47-7:41/km · sin objetivo de distancia"
+      "detail": "25-30 min a FC <124 · ritmo orientativo 6:50-7:45/km · sin objetivo de distancia"
      }
     ],
     "detail": "Regeneración activa. FC por debajo de 124 toda la sesión. Deja las piernas listas para el long run del sábado."
@@ -2276,20 +2276,20 @@
     "d": "SÁB",
     "title": "Long Run de descarga",
     "type": "long",
-    "pace": "5:50-6:35",
+    "pace": "6:10-6:50",
     "dist": "17 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo",
-      "detail": "13 km a 5:50-6:35/km · FC 124-143"
+      "detail": "13 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Final",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Semana de descarga: todo suave, sin ritmo final. FC ≤143 (si el ritmo sale a 6:15-6:30/km, perfecto). Total: ~17 km"
@@ -2332,7 +2332,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Nórdico isquio",
@@ -2366,7 +2366,7 @@
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie: 6 × 800m",
@@ -2374,7 +2374,7 @@
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Ligeramente más rápido que ritmo carrera, FC 165-175. Total: ~11 km"
@@ -2388,7 +2388,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -2421,16 +2421,16 @@
     "d": "VIE",
     "title": "Z2 con desnivel",
     "type": "ez",
-    "pace": "5:37-6:35",
+    "pace": "6:00-6:50",
     "dist": "35-40 min",
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "40 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
+      "detail": "40 min a FC 124-143 · ritmo orientativo 6:00-6:50/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "FC 124-143. Busca rutas con desnivel (Casa de Campo / Monte de El Pardo). La FC subirá en cuestas — normal, no fuerces el ritmo para compensar."
@@ -2439,20 +2439,20 @@
     "d": "SÁB",
     "title": "Long Run mixto (clave)",
     "type": "long",
-    "pace": "5:50-6:35 → 7km a 5:00-5:10",
+    "pace": "6:10-6:50 → 7km a 5:55-6:05",
     "dist": "18 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo suave",
-      "detail": "9 km a 5:50-6:35/km · FC 124-143"
+      "detail": "9 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Últimos 7km a ritmo Behobia",
-      "detail": "7 km a 5:00-5:10/km · FC 150-163 · sin pausa entre tramos"
+      "detail": "7 km a 5:55-6:05/km · FC 150-163 · sin pausa entre tramos"
      }
     ],
     "detail": "⭐ Esta es tu sesión más dura del plan — simula la carrera real con fatiga acumulada. Total: ~18 km"
@@ -2495,7 +2495,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Nórdico isquio",
@@ -2529,7 +2529,7 @@
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie: 6 × 800m",
@@ -2537,7 +2537,7 @@
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Ligeramente más rápido que ritmo carrera, FC 165-175. Total: ~11 km"
@@ -2551,7 +2551,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -2584,16 +2584,16 @@
     "d": "VIE",
     "title": "Z2 con desnivel",
     "type": "ez",
-    "pace": "5:37-6:35",
+    "pace": "6:00-6:50",
     "dist": "35-40 min",
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "40 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
+      "detail": "40 min a FC 124-143 · ritmo orientativo 6:00-6:50/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "FC 124-143. Busca rutas con desnivel (Casa de Campo / Monte de El Pardo). La FC subirá en cuestas — normal, no fuerces el ritmo para compensar."
@@ -2602,20 +2602,20 @@
     "d": "SÁB",
     "title": "Long Run mixto (clave)",
     "type": "long",
-    "pace": "5:50-6:35 → 7km a 5:00-5:10",
+    "pace": "6:10-6:50 → 7km a 5:55-6:05",
     "dist": "20 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo suave",
-      "detail": "11 km a 5:50-6:35/km · FC 124-143"
+      "detail": "11 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Últimos 7km a ritmo Behobia",
-      "detail": "7 km a 5:00-5:10/km · FC 150-163 · sin pausa entre tramos"
+      "detail": "7 km a 5:55-6:05/km · FC 150-163 · sin pausa entre tramos"
      }
     ],
     "detail": "⭐ Esta es tu sesión más dura del plan — simula la carrera real con fatiga acumulada. Total: ~20 km"
@@ -2658,7 +2658,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Nórdico isquio",
@@ -2692,7 +2692,7 @@
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie: 6 × 800m",
@@ -2700,7 +2700,7 @@
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Ligeramente más rápido que ritmo carrera, FC 165-175. Total: ~11 km"
@@ -2714,7 +2714,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -2747,16 +2747,16 @@
     "d": "VIE",
     "title": "Z2 con desnivel",
     "type": "ez",
-    "pace": "5:37-6:35",
+    "pace": "6:00-6:50",
     "dist": "35-40 min",
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "40 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
+      "detail": "40 min a FC 124-143 · ritmo orientativo 6:00-6:50/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "FC 124-143. Busca rutas con desnivel (Casa de Campo / Monte de El Pardo). La FC subirá en cuestas — normal, no fuerces el ritmo para compensar."
@@ -2765,20 +2765,20 @@
     "d": "SÁB",
     "title": "Long Run mixto (clave)",
     "type": "long",
-    "pace": "5:50-6:35 → 7km a 5:00-5:10",
+    "pace": "6:10-6:50 → 7km a 5:55-6:05",
     "dist": "21 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo suave",
-      "detail": "12 km a 5:50-6:35/km · FC 124-143"
+      "detail": "12 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Últimos 7km a ritmo Behobia",
-      "detail": "7 km a 5:00-5:10/km · FC 150-163 · sin pausa entre tramos"
+      "detail": "7 km a 5:55-6:05/km · FC 150-163 · sin pausa entre tramos"
      }
     ],
     "detail": "⭐ Esta es tu sesión más dura del plan — simula la carrera real con fatiga acumulada. Total: ~21 km"
@@ -2821,7 +2821,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Nórdico isquio",
@@ -2850,20 +2850,20 @@
     "d": "MIÉ",
     "title": "2×3km a ritmo Behobia",
     "type": "tempo",
-    "pace": "5:00-5:10",
+    "pace": "5:55-6:05",
     "dist": "9 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie: 2 × 3km a ritmo Behobia",
-      "detail": "2 × 3km a 5:00-5:10/km · recuperación: 3' caminando + trote suave"
+      "detail": "2 × 3km a 5:55-6:05/km · recuperación: 3' caminando + trote suave"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Última semana antes del taper: reduce volumen, mantén calidad. Total: ~9 km"
@@ -2877,7 +2877,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -2910,16 +2910,16 @@
     "d": "VIE",
     "title": "Z2 suave",
     "type": "ez",
-    "pace": "5:37-6:35",
+    "pace": "6:00-6:50",
     "dist": "35-40 min",
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "30 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
+      "detail": "30 min a FC 124-143 · ritmo orientativo 6:00-6:50/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "FC 124-143. Última semana antes del taper: reduce a 30 min suaves."
@@ -2928,20 +2928,20 @@
     "d": "SÁB",
     "title": "Long Run suave (descarga)",
     "type": "long",
-    "pace": "5:50-6:35",
+    "pace": "6:10-6:50",
     "dist": "17 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo",
-      "detail": "13 km a 5:50-6:35/km · FC 124-143"
+      "detail": "13 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Final",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Todo suave, sin ritmo. Última semana de carga alta — recupera antes del taper. Total: ~17 km"
@@ -2984,7 +2984,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -3017,20 +3017,20 @@
     "d": "MIÉ",
     "title": "Activación: 2×2km a ritmo carrera",
     "type": "tempo",
-    "pace": "5:00-5:10",
+    "pace": "5:55-6:05",
     "dist": "6 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie: 2 × 2km",
-      "detail": "2 × 2km a 5:00-5:10/km · recuperación: 2' trote suave"
+      "detail": "2 × 2km a 5:55-6:05/km · recuperación: 2' trote suave"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Recordar al cuerpo el ritmo objetivo sin generar fatiga. Total: ~6 km"
@@ -3083,20 +3083,20 @@
     "d": "SÁB",
     "title": "Long Run de tapering",
     "type": "long",
-    "pace": "5:50-6:35 → 3km a 5:00-5:10",
+    "pace": "6:10-6:50 → 3km a 5:55-6:05",
     "dist": "14 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo",
-      "detail": "9 km a 5:50-6:35/km · FC 124-143"
+      "detail": "9 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Últimos 3km a ritmo Behobia",
-      "detail": "3km a 5:00-5:10/km · solo para recordar la sensación, sin fatiga"
+      "detail": "3km a 5:55-6:05/km · solo para recordar la sensación, sin fatiga"
      }
     ],
     "detail": "Ritmo cómodo, sin buscar sensaciones fuertes. Total: ~14 km"
@@ -3139,7 +3139,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -3172,20 +3172,20 @@
     "d": "MIÉ",
     "title": "Activación: 2×1km a ritmo carrera",
     "type": "tempo",
-    "pace": "5:00-5:10",
+    "pace": "5:55-6:05",
     "dist": "5 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "1.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "1.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie: 2 × 1km",
-      "detail": "2 × 1km a 5:00-5:10/km · recuperación: 2' trote suave"
+      "detail": "2 × 1km a 5:55-6:05/km · recuperación: 2' trote suave"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Recordar al cuerpo el ritmo objetivo sin generar fatiga. Total: ~5 km"
@@ -3238,20 +3238,20 @@
     "d": "SÁB",
     "title": "Long Run de tapering",
     "type": "long",
-    "pace": "5:50-6:35 → 2km a 5:00-5:10",
+    "pace": "6:10-6:50 → 2km a 5:55-6:05",
     "dist": "10 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo",
-      "detail": "6 km a 5:50-6:35/km · FC 124-143"
+      "detail": "6 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Últimos 2km a ritmo Behobia",
-      "detail": "2km a 5:00-5:10/km · solo para recordar la sensación, sin fatiga"
+      "detail": "2km a 5:55-6:05/km · solo para recordar la sensación, sin fatiga"
      }
     ],
     "detail": "Ritmo cómodo, sin buscar sensaciones fuertes. Total: ~10 km"
@@ -3289,20 +3289,20 @@
     "d": "MAR",
     "title": "Z2 muy suave",
     "type": "ez",
-    "pace": "5:37-6:35",
+    "pace": "6:00-6:50",
     "dist": "5 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "1 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "1 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo",
-      "detail": "3 km a 5:37-6:35/km · FC 124-143"
+      "detail": "3 km a 6:00-6:50/km · FC 124-143"
      },
      {
       "label": "Final",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Activación ligera. FC<145. Total: ~5 km"
@@ -3311,20 +3311,20 @@
     "d": "MIÉ",
     "title": "Activación 1km a ritmo carrera",
     "type": "tempo",
-    "pace": "5:00-5:10",
+    "pace": "5:55-6:05",
     "dist": "4 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "1.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "1.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie",
-      "detail": "1km a 5:00-5:10/km · solo recordar la sensación"
+      "detail": "1km a 5:55-6:05/km · solo recordar la sensación"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Nada de fatiga, esto es solo activación neuromuscular. Total: ~4 km"
@@ -3367,16 +3367,16 @@
     "d": "DOM",
     "title": "🏁 BEHOBIA-SAN SEBASTIÁN",
     "type": "race",
-    "pace": "5:00-5:10",
+    "pace": "5:55-6:05",
     "dist": "20 km · Meta 1h41-1h44",
     "steps": [
      {
       "label": "Km 0-5",
-      "detail": "Sal CONSERVADOR — incluso 5-10\"/km más lento que 5:00-5:10. No te dejes llevar por la multitud."
+      "detail": "Sal CONSERVADOR — incluso 5-10\"/km más lento que 5:55-6:05. No te dejes llevar por la multitud."
      },
      {
       "label": "Km 5-15",
-      "detail": "Asienta el ritmo objetivo 5:00-5:10/km. Tramo Behobia→Rentería es el más exigente — controla esfuerzo, no ritmo."
+      "detail": "Asienta el ritmo objetivo 5:55-6:05/km. Tramo Behobia→Rentería es el más exigente — controla esfuerzo, no ritmo."
      },
      {
       "label": "Km 15-20",
@@ -3414,12 +3414,12 @@
     "d": "MAR",
     "title": "Caminar / Z1 muy suave",
     "type": "ez",
-    "pace": "6:47-7:41",
+    "pace": "6:50-7:45",
     "dist": "4 km",
     "steps": [
      {
       "label": "Opcional",
-      "detail": "4km muy suave a 6:47-7:41/km, o simplemente caminar 30-40min"
+      "detail": "4km muy suave a 6:50-7:45/km, o simplemente caminar 30-40min"
      }
     ],
     "detail": "Solo si las piernas lo piden. Sin presión, sin reloj. Total: ~4 km"
@@ -3436,20 +3436,20 @@
     "d": "JUE",
     "title": "Z1-Z2 suave",
     "type": "ez",
-    "pace": "6:47-7:41",
+    "pace": "6:50-7:45",
     "dist": "5 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "1 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "1 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo",
-      "detail": "3 km a 6:47-7:41/km · FC <124"
+      "detail": "3 km a 6:50-7:45/km · FC <124"
      },
      {
       "label": "Final",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Empezar a reactivar piernas. Sin objetivo de ritmo. Total: ~5 km"
@@ -3466,20 +3466,20 @@
     "d": "SÁB",
     "title": "Z2 muy suave",
     "type": "long",
-    "pace": "5:50-6:35",
+    "pace": "6:10-6:50",
     "dist": "10 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo",
-      "detail": "6 km a 5:50-6:35/km · FC 124-143"
+      "detail": "6 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Final",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Recuperación activa. Sin prisa, sin ritmo objetivo — solo sentir las piernas otra vez. Total: ~10 km"
@@ -3522,7 +3522,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -3555,20 +3555,20 @@
     "d": "MIÉ",
     "title": "Cuestas 6×60\"",
     "type": "interval",
-    "pace": "4:18-4:45",
+    "pace": "5:05-5:30",
     "dist": "7 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie: 6 × 60\" cuesta",
-      "detail": "6 × 60\" cuesta a 4:18-4:45/km · recuperación: bajada trotando (~90\")"
+      "detail": "6 × 60\" cuesta a 5:05-5:30/km · recuperación: bajada trotando (~90\")"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Reintroducción gradual de intensidad. Esfuerzo controlado, sin buscar máximos. Total: ~7 km"
@@ -3582,7 +3582,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -3615,16 +3615,16 @@
     "d": "VIE",
     "title": "Z2 suave",
     "type": "ez",
-    "pace": "5:37-6:35",
+    "pace": "6:00-6:50",
     "dist": "35-40 min",
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "35 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
+      "detail": "35 min a FC 124-143 · ritmo orientativo 6:00-6:50/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "FC 124-143. Transición suave hacia el long run del sábado. Rige la FC, no el ritmo."
@@ -3633,20 +3633,20 @@
     "d": "SÁB",
     "title": "Long Run progresivo",
     "type": "long",
-    "pace": "5:50-6:35",
+    "pace": "6:10-6:50",
     "dist": "13 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo",
-      "detail": "9 km a 5:50-6:35/km · FC 124-143"
+      "detail": "9 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Final",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      },
      {
       "label": "Nutrición e hidratación",
@@ -3693,7 +3693,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -3726,23 +3726,23 @@
     "d": "MIÉ",
     "title": "6×400m",
     "type": "interval",
-    "pace": "4:18-4:45",
+    "pace": "5:05-5:30",
     "dist": "7 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie: 6 × 400m",
-      "detail": "6 × 400m a 4:18-4:45/km · recuperación: 400m trote suave (~2')"
+      "detail": "6 × 400m a 5:05-5:30/km · recuperación: 400m trote suave (~2')"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
-    "detail": "400m a 4:18-4:45/km. Total: ~7 km"
+    "detail": "400m a 5:05-5:30/km. Total: ~7 km"
    },
    {
     "d": "JUE",
@@ -3753,7 +3753,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -3786,16 +3786,16 @@
     "d": "VIE",
     "title": "Z2 suave",
     "type": "ez",
-    "pace": "5:37-6:35",
+    "pace": "6:00-6:50",
     "dist": "35-40 min",
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "35 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
+      "detail": "35 min a FC 124-143 · ritmo orientativo 6:00-6:50/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "FC 124-143. Transición suave hacia el long run del sábado. Rige la FC, no el ritmo."
@@ -3804,20 +3804,20 @@
     "d": "SÁB",
     "title": "Long Run progresivo",
     "type": "long",
-    "pace": "5:50-6:35",
+    "pace": "6:10-6:50",
     "dist": "14 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo",
-      "detail": "10 km a 5:50-6:35/km · FC 124-143"
+      "detail": "10 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Final",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      },
      {
       "label": "Nutrición e hidratación",
@@ -3864,7 +3864,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -3897,20 +3897,20 @@
     "d": "MIÉ",
     "title": "Cuestas 6×60\"",
     "type": "interval",
-    "pace": "4:18-4:45",
+    "pace": "5:05-5:30",
     "dist": "7 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie: 6 × 60\" cuesta",
-      "detail": "6 × 60\" cuesta a 4:18-4:45/km · recuperación: bajada trotando (~90\")"
+      "detail": "6 × 60\" cuesta a 5:05-5:30/km · recuperación: bajada trotando (~90\")"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Reintroducción gradual de intensidad. Esfuerzo controlado, sin buscar máximos. Total: ~7 km"
@@ -3924,7 +3924,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -3957,16 +3957,16 @@
     "d": "VIE",
     "title": "Z2 suave",
     "type": "ez",
-    "pace": "5:37-6:35",
+    "pace": "6:00-6:50",
     "dist": "35-40 min",
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "35 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
+      "detail": "35 min a FC 124-143 · ritmo orientativo 6:00-6:50/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "FC 124-143. Transición suave hacia el long run del sábado. Rige la FC, no el ritmo."
@@ -3975,20 +3975,20 @@
     "d": "SÁB",
     "title": "Long Run progresivo",
     "type": "long",
-    "pace": "5:50-6:35",
+    "pace": "6:10-6:50",
     "dist": "15 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo",
-      "detail": "11 km a 5:50-6:35/km · FC 124-143"
+      "detail": "11 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Final",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      },
      {
       "label": "Nutrición e hidratación",
@@ -4035,7 +4035,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -4068,23 +4068,23 @@
     "d": "MIÉ",
     "title": "6×400m",
     "type": "interval",
-    "pace": "4:18-4:45",
+    "pace": "5:05-5:30",
     "dist": "7 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie: 6 × 400m",
-      "detail": "6 × 400m a 4:18-4:45/km · recuperación: 400m trote suave (~2')"
+      "detail": "6 × 400m a 5:05-5:30/km · recuperación: 400m trote suave (~2')"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
-    "detail": "400m a 4:18-4:45/km. Total: ~7 km"
+    "detail": "400m a 5:05-5:30/km. Total: ~7 km"
    },
    {
     "d": "JUE",
@@ -4095,7 +4095,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -4128,16 +4128,16 @@
     "d": "VIE",
     "title": "Z2 suave",
     "type": "ez",
-    "pace": "5:37-6:35",
+    "pace": "6:00-6:50",
     "dist": "35-40 min",
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "35 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
+      "detail": "35 min a FC 124-143 · ritmo orientativo 6:00-6:50/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "FC 124-143. Transición suave hacia el long run del sábado. Rige la FC, no el ritmo."
@@ -4146,20 +4146,20 @@
     "d": "SÁB",
     "title": "Long Run progresivo",
     "type": "long",
-    "pace": "5:50-6:35",
+    "pace": "6:10-6:50",
     "dist": "16 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo",
-      "detail": "12 km a 5:50-6:35/km · FC 124-143"
+      "detail": "12 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Final",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      },
      {
       "label": "Nutrición e hidratación",
@@ -4206,7 +4206,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -4239,20 +4239,20 @@
     "d": "MIÉ",
     "title": "Cuestas 6×60\"",
     "type": "interval",
-    "pace": "4:18-4:45",
+    "pace": "5:05-5:30",
     "dist": "5 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie: 6 × 60\" cuesta",
-      "detail": "6 × 60\" cuesta a 4:18-4:45/km · recuperación: bajada trotando (~90\")"
+      "detail": "6 × 60\" cuesta a 5:05-5:30/km · recuperación: bajada trotando (~90\")"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Reintroducción gradual de intensidad. Esfuerzo controlado, sin buscar máximos. Total: ~5 km"
@@ -4266,7 +4266,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -4299,16 +4299,16 @@
     "d": "VIE",
     "title": "Z2 suave",
     "type": "ez",
-    "pace": "5:37-6:35",
+    "pace": "6:00-6:50",
     "dist": "35-40 min",
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "35 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
+      "detail": "35 min a FC 124-143 · ritmo orientativo 6:00-6:50/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "FC 124-143. Transición suave hacia el long run del sábado. Rige la FC, no el ritmo."
@@ -4317,20 +4317,20 @@
     "d": "SÁB",
     "title": "Long Run de descarga (Navidad)",
     "type": "long",
-    "pace": "5:50-6:35",
+    "pace": "6:10-6:50",
     "dist": "14 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo",
-      "detail": "10 km a 5:50-6:35/km · FC 124-143"
+      "detail": "10 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Final",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      },
      {
       "label": "Nutrición e hidratación",
@@ -4377,7 +4377,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -4410,23 +4410,23 @@
     "d": "MIÉ",
     "title": "5×1000m a ritmo maratón+",
     "type": "interval",
-    "pace": "4:45-5:07",
+    "pace": "5:30-5:50",
     "dist": "11 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie: 5 × 1000m",
-      "detail": "5 × 1000m a 4:45-5:07/km · recuperación: 90\" trote suave"
+      "detail": "5 × 1000m a 5:30-5:50/km · recuperación: 90\" trote suave"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
-    "detail": "1000m a 4:45-5:07/km, FC 160-175. Total: ~11 km"
+    "detail": "1000m a 5:30-5:50/km, FC 160-175. Total: ~11 km"
    },
    {
     "d": "JUE",
@@ -4437,7 +4437,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -4470,12 +4470,12 @@
     "d": "VIE",
     "title": "Recovery Z1",
     "type": "ez",
-    "pace": "6:47-7:41",
+    "pace": "6:50-7:45",
     "dist": "25-30 min",
     "steps": [
      {
       "label": "Trote de recuperación",
-      "detail": "25-30 min a FC <124 · ritmo orientativo 6:47-7:41/km · sin objetivo de distancia"
+      "detail": "25-30 min a FC <124 · ritmo orientativo 6:50-7:45/km · sin objetivo de distancia"
      }
     ],
     "detail": "Regeneración activa. FC por debajo de 124 toda la sesión. Deja las piernas listas para el long run del sábado."
@@ -4484,20 +4484,20 @@
     "d": "SÁB",
     "title": "Long Run + ritmo final",
     "type": "long",
-    "pace": "5:50-6:35 → 2km a 5:07-5:37",
+    "pace": "6:10-6:50 → 2km a 5:45-6:05",
     "dist": "15 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo suave",
-      "detail": "11 km a 5:50-6:35/km · FC 124-143"
+      "detail": "11 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Últimos 2km a ritmo tempo",
-      "detail": "2km a 5:07-5:37/km · FC 150-163"
+      "detail": "2km a 5:45-6:05/km · FC 150-163"
      },
      {
       "label": "Nutrición e hidratación",
@@ -4544,7 +4544,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -4577,23 +4577,23 @@
     "d": "MIÉ",
     "title": "Fartlek 6×(3'/2')",
     "type": "interval",
-    "pace": "4:45-5:07",
+    "pace": "5:30-5:50",
     "dist": "11 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Fartlek: 6 × (3'/2')",
-      "detail": "6 × 3' fuerte a 4:45-5:07/km · recuperación: 2' trote suave"
+      "detail": "6 × 3' fuerte a 5:30-5:50/km · recuperación: 2' trote suave"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
-    "detail": "3' a 4:45-5:07/km seguido de 2' recuperación. Total: ~11 km"
+    "detail": "3' a 5:30-5:50/km seguido de 2' recuperación. Total: ~11 km"
    },
    {
     "d": "JUE",
@@ -4604,7 +4604,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -4637,12 +4637,12 @@
     "d": "VIE",
     "title": "Recovery Z1",
     "type": "ez",
-    "pace": "6:47-7:41",
+    "pace": "6:50-7:45",
     "dist": "25-30 min",
     "steps": [
      {
       "label": "Trote de recuperación",
-      "detail": "25-30 min a FC <124 · ritmo orientativo 6:47-7:41/km · sin objetivo de distancia"
+      "detail": "25-30 min a FC <124 · ritmo orientativo 6:50-7:45/km · sin objetivo de distancia"
      }
     ],
     "detail": "Regeneración activa. FC por debajo de 124 toda la sesión. Deja las piernas listas para el long run del sábado."
@@ -4651,20 +4651,20 @@
     "d": "SÁB",
     "title": "Long Run + ritmo final",
     "type": "long",
-    "pace": "5:50-6:35 → 3km a 5:07-5:37",
+    "pace": "6:10-6:50 → 3km a 5:45-6:05",
     "dist": "16 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo suave",
-      "detail": "11 km a 5:50-6:35/km · FC 124-143"
+      "detail": "11 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Últimos 3km a ritmo tempo",
-      "detail": "3km a 5:07-5:37/km · FC 150-163"
+      "detail": "3km a 5:45-6:05/km · FC 150-163"
      },
      {
       "label": "Nutrición e hidratación",
@@ -4711,7 +4711,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -4744,23 +4744,23 @@
     "d": "MIÉ",
     "title": "5×1000m a ritmo maratón+",
     "type": "interval",
-    "pace": "4:45-5:07",
+    "pace": "5:30-5:50",
     "dist": "11 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie: 5 × 1000m",
-      "detail": "5 × 1000m a 4:45-5:07/km · recuperación: 90\" trote suave"
+      "detail": "5 × 1000m a 5:30-5:50/km · recuperación: 90\" trote suave"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
-    "detail": "1000m a 4:45-5:07/km, FC 160-175. Total: ~11 km"
+    "detail": "1000m a 5:30-5:50/km, FC 160-175. Total: ~11 km"
    },
    {
     "d": "JUE",
@@ -4771,7 +4771,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -4804,12 +4804,12 @@
     "d": "VIE",
     "title": "Recovery Z1",
     "type": "ez",
-    "pace": "6:47-7:41",
+    "pace": "6:50-7:45",
     "dist": "25-30 min",
     "steps": [
      {
       "label": "Trote de recuperación",
-      "detail": "25-30 min a FC <124 · ritmo orientativo 6:47-7:41/km · sin objetivo de distancia"
+      "detail": "25-30 min a FC <124 · ritmo orientativo 6:50-7:45/km · sin objetivo de distancia"
      }
     ],
     "detail": "Regeneración activa. FC por debajo de 124 toda la sesión. Deja las piernas listas para el long run del sábado."
@@ -4818,20 +4818,20 @@
     "d": "SÁB",
     "title": "Long Run + ritmo final",
     "type": "long",
-    "pace": "5:50-6:35 → 4km a 5:07-5:37",
+    "pace": "6:10-6:50 → 4km a 5:45-6:05",
     "dist": "17 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo suave",
-      "detail": "11 km a 5:50-6:35/km · FC 124-143"
+      "detail": "11 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Últimos 4km a ritmo tempo",
-      "detail": "4km a 5:07-5:37/km · FC 150-163"
+      "detail": "4km a 5:45-6:05/km · FC 150-163"
      },
      {
       "label": "Nutrición e hidratación",
@@ -4878,7 +4878,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -4911,23 +4911,23 @@
     "d": "MIÉ",
     "title": "Fartlek 6×(3'/2')",
     "type": "interval",
-    "pace": "4:45-5:07",
+    "pace": "5:30-5:50",
     "dist": "11 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Fartlek: 6 × (3'/2')",
-      "detail": "6 × 3' fuerte a 4:45-5:07/km · recuperación: 2' trote suave"
+      "detail": "6 × 3' fuerte a 5:30-5:50/km · recuperación: 2' trote suave"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
-    "detail": "3' a 4:45-5:07/km seguido de 2' recuperación. Total: ~11 km"
+    "detail": "3' a 5:30-5:50/km seguido de 2' recuperación. Total: ~11 km"
    },
    {
     "d": "JUE",
@@ -4938,7 +4938,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -4971,12 +4971,12 @@
     "d": "VIE",
     "title": "Recovery Z1",
     "type": "ez",
-    "pace": "6:47-7:41",
+    "pace": "6:50-7:45",
     "dist": "25-30 min",
     "steps": [
      {
       "label": "Trote de recuperación",
-      "detail": "25-30 min a FC <124 · ritmo orientativo 6:47-7:41/km · sin objetivo de distancia"
+      "detail": "25-30 min a FC <124 · ritmo orientativo 6:50-7:45/km · sin objetivo de distancia"
      }
     ],
     "detail": "Regeneración activa. FC por debajo de 124 toda la sesión. Deja las piernas listas para el long run del sábado."
@@ -4985,20 +4985,20 @@
     "d": "SÁB",
     "title": "Long Run + ritmo final",
     "type": "long",
-    "pace": "5:50-6:35 → 5km a 5:07-5:37",
+    "pace": "6:10-6:50 → 5km a 5:45-6:05",
     "dist": "19 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo suave",
-      "detail": "12 km a 5:50-6:35/km · FC 124-143"
+      "detail": "12 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Últimos 5km a ritmo tempo",
-      "detail": "5km a 5:07-5:37/km · FC 150-163"
+      "detail": "5km a 5:45-6:05/km · FC 150-163"
      },
      {
       "label": "Nutrición e hidratación",
@@ -5045,7 +5045,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -5078,16 +5078,16 @@
     "d": "MIÉ",
     "title": "Z2 + strides",
     "type": "ez",
-    "pace": "5:37-6:35",
+    "pace": "6:00-6:50",
     "dist": "6 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "1.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "1.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo",
-      "detail": "3 km a 5:37-6:35/km · FC 124-143"
+      "detail": "3 km a 6:00-6:50/km · FC 124-143"
      },
      {
       "label": "Strides finales",
@@ -5105,7 +5105,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -5146,20 +5146,20 @@
     "d": "SÁB",
     "title": "Long Run suave (pre-Getafe)",
     "type": "long",
-    "pace": "5:50-6:35",
+    "pace": "6:10-6:50",
     "dist": "15 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo",
-      "detail": "11 km a 5:50-6:35/km · FC 124-143"
+      "detail": "11 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Final",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      },
      {
       "label": "Nutrición e hidratación",
@@ -5201,20 +5201,20 @@
     "d": "MAR",
     "title": "Z2 muy suave",
     "type": "ez",
-    "pace": "5:37-6:35",
+    "pace": "6:00-6:50",
     "dist": "6 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "1.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "1.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo",
-      "detail": "3 km a 5:37-6:35/km · FC 124-143"
+      "detail": "3 km a 6:00-6:50/km · FC 124-143"
      },
      {
       "label": "Final",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "FC<145. Mantener soltura sin generar fatiga. Total: ~6 km"
@@ -5223,20 +5223,20 @@
     "d": "MIÉ",
     "title": "Activación 2×1km",
     "type": "tempo",
-    "pace": "5:07-5:37",
+    "pace": "5:45-6:05",
     "dist": "6 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie: 2 × 1km",
-      "detail": "2 × 1km a 5:07-5:37/km · recuperación: 2' trote suave"
+      "detail": "2 × 1km a 5:45-6:05/km · recuperación: 2' trote suave"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Activación neuromuscular ligera de cara al domingo. Total: ~6 km"
@@ -5279,20 +5279,20 @@
     "d": "DOM",
     "title": "🎯 GETAFE Media Maratón (como Long Run)",
     "type": "long",
-    "pace": "Progresivo: 5:50-6:35 → 5:07-5:37 → 5:00-5:10",
+    "pace": "Progresivo: 6:10-6:50 → 5:45-6:05 → 5:55-6:05",
     "dist": "21,1 km",
     "steps": [
      {
       "label": "Km 0-8",
-      "detail": "A ritmo 5:50-6:35/km — acompañando a tu amigo, conversacional, sin prisa"
+      "detail": "A ritmo 6:10-6:50/km — acompañando a tu amigo, conversacional, sin prisa"
      },
      {
       "label": "Km 8-16",
-      "detail": "Sube a 5:07-5:37/km si el cuerpo lo pide — sigue siendo controlado"
+      "detail": "Sube a 5:45-6:05/km si el cuerpo lo pide — sigue siendo controlado"
      },
      {
       "label": "Km 16-21",
-      "detail": "Opcional: cierra a ritmo 5:00-5:10/km si te sientes bien, o mantén 5:07-5:37/km"
+      "detail": "Opcional: cierra a ritmo 5:55-6:05/km si te sientes bien, o mantén 5:45-6:05/km"
      },
      {
       "label": "Nutrición e hidratación",
@@ -5331,7 +5331,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -5364,20 +5364,20 @@
     "d": "MIÉ",
     "title": "Tempo continuo 25'",
     "type": "tempo",
-    "pace": "5:07-5:37",
+    "pace": "5:45-6:05",
     "dist": "11 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo principal",
-      "detail": "25' continuos a 5:07-5:37/km · FC 152-164"
+      "detail": "25' continuos a 5:45-6:05/km · FC 152-164"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Construyendo el umbral aeróbico para sostener el ritmo de maratón. Total: ~11 km"
@@ -5391,7 +5391,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -5424,12 +5424,12 @@
     "d": "VIE",
     "title": "Recovery Z1",
     "type": "ez",
-    "pace": "6:47-7:41",
+    "pace": "6:50-7:45",
     "dist": "25 min",
     "steps": [
      {
       "label": "Trote de recuperación",
-      "detail": "25-30 min a FC <124 · ritmo orientativo 6:47-7:41/km"
+      "detail": "25-30 min a FC <124 · ritmo orientativo 6:50-7:45/km"
      }
     ],
     "detail": "Regeneración activa para el long run. FC por debajo de 124 toda la sesión."
@@ -5438,27 +5438,27 @@
     "d": "SÁB",
     "title": "Long Run + 3km a Ritmo Maratón",
     "type": "long",
-    "pace": "5:50-6:35 → 3km a 5:15-5:25",
+    "pace": "6:10-6:50 → 3km a 5:40-5:50",
     "dist": "17 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo suave",
-      "detail": "12 km a 5:50-6:35/km · FC 124-143"
+      "detail": "12 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Últimos 3km a Ritmo Maratón (MP)",
-      "detail": "3km a 5:15-5:25/km · FC objetivo según sensaciones, debe sentirse 'sostenible'"
+      "detail": "3km a 5:40-5:50/km · FC objetivo según sensaciones, debe sentirse 'sostenible'"
      },
      {
       "label": "Nutrición e hidratación",
       "detail": "Sube a 50-60 g de carbohidrato/h (gel cada 25-30') y 150-200 ml cada 15-20' a sorbos. Desayuno rico en carbohidrato 2,5-3 h antes."
      }
     ],
-    "detail": "⭐ El ritmo de maratón (MP=5:15-5:25/km) es una primera estimación — se recalibrará tras Getafe con tu tiempo real. La sensación debe ser 'podría mantener esto durante horas'. Total: ~17 km"
+    "detail": "⭐ El ritmo de maratón (MP=5:40-5:50/km) es una primera estimación — se recalibrará tras Getafe con tu tiempo real. La sensación debe ser 'podría mantener esto durante horas'. Total: ~17 km"
    },
    {
     "d": "DOM",
@@ -5498,7 +5498,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -5531,20 +5531,20 @@
     "d": "MIÉ",
     "title": "Tempo continuo 27'",
     "type": "tempo",
-    "pace": "5:07-5:37",
+    "pace": "5:45-6:05",
     "dist": "11 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo principal",
-      "detail": "27' continuos a 5:07-5:37/km · FC 152-164"
+      "detail": "27' continuos a 5:45-6:05/km · FC 152-164"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Construyendo el umbral aeróbico para sostener el ritmo de maratón. Total: ~11 km"
@@ -5558,7 +5558,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -5591,12 +5591,12 @@
     "d": "VIE",
     "title": "Recovery Z1",
     "type": "ez",
-    "pace": "6:47-7:41",
+    "pace": "6:50-7:45",
     "dist": "25 min",
     "steps": [
      {
       "label": "Trote de recuperación",
-      "detail": "25-30 min a FC <124 · ritmo orientativo 6:47-7:41/km"
+      "detail": "25-30 min a FC <124 · ritmo orientativo 6:50-7:45/km"
      }
     ],
     "detail": "Regeneración activa para el long run. FC por debajo de 124 toda la sesión."
@@ -5605,27 +5605,27 @@
     "d": "SÁB",
     "title": "Long Run + 5km a Ritmo Maratón",
     "type": "long",
-    "pace": "5:50-6:35 → 5km a 5:15-5:25",
+    "pace": "6:10-6:50 → 5km a 5:40-5:50",
     "dist": "18 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo suave",
-      "detail": "11 km a 5:50-6:35/km · FC 124-143"
+      "detail": "11 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Últimos 5km a Ritmo Maratón (MP)",
-      "detail": "5km a 5:15-5:25/km · FC objetivo según sensaciones, debe sentirse 'sostenible'"
+      "detail": "5km a 5:40-5:50/km · FC objetivo según sensaciones, debe sentirse 'sostenible'"
      },
      {
       "label": "Nutrición e hidratación",
       "detail": "Sube a 50-60 g de carbohidrato/h (gel cada 25-30') y 150-200 ml cada 15-20' a sorbos. Desayuno rico en carbohidrato 2,5-3 h antes."
      }
     ],
-    "detail": "⭐ El ritmo de maratón (MP=5:15-5:25/km) es una primera estimación — se recalibrará tras Getafe con tu tiempo real. La sensación debe ser 'podría mantener esto durante horas'. Total: ~18 km"
+    "detail": "⭐ El ritmo de maratón (MP=5:40-5:50/km) es una primera estimación — se recalibrará tras Getafe con tu tiempo real. La sensación debe ser 'podría mantener esto durante horas'. Total: ~18 km"
    },
    {
     "d": "DOM",
@@ -5665,7 +5665,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -5698,20 +5698,20 @@
     "d": "MIÉ",
     "title": "Tempo continuo 29'",
     "type": "tempo",
-    "pace": "5:07-5:37",
+    "pace": "5:45-6:05",
     "dist": "11 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo principal",
-      "detail": "29' continuos a 5:07-5:37/km · FC 152-164"
+      "detail": "29' continuos a 5:45-6:05/km · FC 152-164"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Construyendo el umbral aeróbico para sostener el ritmo de maratón. Total: ~11 km"
@@ -5725,7 +5725,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -5758,12 +5758,12 @@
     "d": "VIE",
     "title": "Recovery Z1",
     "type": "ez",
-    "pace": "6:47-7:41",
+    "pace": "6:50-7:45",
     "dist": "25 min",
     "steps": [
      {
       "label": "Trote de recuperación",
-      "detail": "25-30 min a FC <124 · ritmo orientativo 6:47-7:41/km"
+      "detail": "25-30 min a FC <124 · ritmo orientativo 6:50-7:45/km"
      }
     ],
     "detail": "Regeneración activa para el long run. FC por debajo de 124 toda la sesión."
@@ -5772,27 +5772,27 @@
     "d": "SÁB",
     "title": "Long Run + 7km a Ritmo Maratón",
     "type": "long",
-    "pace": "5:50-6:35 → 7km a 5:15-5:25",
+    "pace": "6:10-6:50 → 7km a 5:40-5:50",
     "dist": "20 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo suave",
-      "detail": "11 km a 5:50-6:35/km · FC 124-143"
+      "detail": "11 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Últimos 7km a Ritmo Maratón (MP)",
-      "detail": "7km a 5:15-5:25/km · FC objetivo según sensaciones, debe sentirse 'sostenible'"
+      "detail": "7km a 5:40-5:50/km · FC objetivo según sensaciones, debe sentirse 'sostenible'"
      },
      {
       "label": "Nutrición e hidratación",
       "detail": "Sube a 50-60 g de carbohidrato/h (gel cada 25-30') y 150-200 ml cada 15-20' a sorbos. Desayuno rico en carbohidrato 2,5-3 h antes."
      }
     ],
-    "detail": "⭐ El ritmo de maratón (MP=5:15-5:25/km) es una primera estimación — se recalibrará tras Getafe con tu tiempo real. La sensación debe ser 'podría mantener esto durante horas'. Total: ~20 km"
+    "detail": "⭐ El ritmo de maratón (MP=5:40-5:50/km) es una primera estimación — se recalibrará tras Getafe con tu tiempo real. La sensación debe ser 'podría mantener esto durante horas'. Total: ~20 km"
    },
    {
     "d": "DOM",
@@ -5832,7 +5832,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -5865,20 +5865,20 @@
     "d": "MIÉ",
     "title": "Tempo continuo 31'",
     "type": "tempo",
-    "pace": "5:07-5:37",
+    "pace": "5:45-6:05",
     "dist": "11 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo principal",
-      "detail": "31' continuos a 5:07-5:37/km · FC 152-164"
+      "detail": "31' continuos a 5:45-6:05/km · FC 152-164"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Construyendo el umbral aeróbico para sostener el ritmo de maratón. Total: ~11 km"
@@ -5892,7 +5892,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -5925,12 +5925,12 @@
     "d": "VIE",
     "title": "Recovery Z1",
     "type": "ez",
-    "pace": "6:47-7:41",
+    "pace": "6:50-7:45",
     "dist": "25 min",
     "steps": [
      {
       "label": "Trote de recuperación",
-      "detail": "25-30 min a FC <124 · ritmo orientativo 6:47-7:41/km"
+      "detail": "25-30 min a FC <124 · ritmo orientativo 6:50-7:45/km"
      }
     ],
     "detail": "Regeneración activa para el long run. FC por debajo de 124 toda la sesión."
@@ -5939,20 +5939,20 @@
     "d": "SÁB",
     "title": "🏆 Long Run amplio: 24km + 11km a MP",
     "type": "long",
-    "pace": "5:50-6:35 → 11km a 5:15-5:25",
+    "pace": "6:10-6:50 → 11km a 5:40-5:50",
     "dist": "24 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo suave",
-      "detail": "11 km a 5:50-6:35/km · FC 124-143"
+      "detail": "11 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Últimos 11km a Ritmo Maratón (MP)",
-      "detail": "11km a 5:15-5:25/km · FC objetivo según sensaciones, debe sentirse 'sostenible'"
+      "detail": "11km a 5:40-5:50/km · FC objetivo según sensaciones, debe sentirse 'sostenible'"
      },
      {
       "label": "Nutrición e hidratación",
@@ -5999,7 +5999,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -6032,20 +6032,20 @@
     "d": "MIÉ",
     "title": "Tempo continuo 20'",
     "type": "tempo",
-    "pace": "5:07-5:37",
+    "pace": "5:45-6:05",
     "dist": "8 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo principal",
-      "detail": "20' continuos a 5:07-5:37/km · FC 152-164"
+      "detail": "20' continuos a 5:45-6:05/km · FC 152-164"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Construyendo el umbral aeróbico para sostener el ritmo de maratón. Total: ~8 km"
@@ -6059,7 +6059,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -6092,12 +6092,12 @@
     "d": "VIE",
     "title": "Z2 suave + strides",
     "type": "ez",
-    "pace": "5:37-6:35",
+    "pace": "6:00-6:50",
     "dist": "30-35 min",
     "steps": [
      {
       "label": "Rodaje Z2",
-      "detail": "30 min a FC 124-143 · ritmo orientativo 5:37-6:35/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
+      "detail": "30 min a FC 124-143 · ritmo orientativo 6:00-6:50/km · conversacional, frases completas · manda la FC (≤143): si el ritmo sale más lento, perfecto"
      },
      {
       "label": "Strides finales",
@@ -6105,7 +6105,7 @@
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "FC 124-143. Descarga: reduce volumen e intensidad. Los strides al final activan el sistema neuromuscular."
@@ -6114,20 +6114,20 @@
     "d": "SÁB",
     "title": "Long Run de descarga",
     "type": "long",
-    "pace": "5:50-6:35",
+    "pace": "6:10-6:50",
     "dist": "19 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo",
-      "detail": "15 km a 5:50-6:35/km · FC 124-143"
+      "detail": "15 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Final",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      },
      {
       "label": "Nutrición e hidratación",
@@ -6174,7 +6174,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Nórdico isquio",
@@ -6203,20 +6203,20 @@
     "d": "MIÉ",
     "title": "Tempo continuo 30'",
     "type": "tempo",
-    "pace": "5:07-5:37",
+    "pace": "5:45-6:05",
     "dist": "12 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo principal",
-      "detail": "30' continuos a 5:07-5:37/km · FC 152-164"
+      "detail": "30' continuos a 5:45-6:05/km · FC 152-164"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Total: ~12 km"
@@ -6230,7 +6230,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -6263,12 +6263,12 @@
     "d": "VIE",
     "title": "Recovery Z1",
     "type": "ez",
-    "pace": "6:47-7:41",
+    "pace": "6:50-7:45",
     "dist": "25 min",
     "steps": [
      {
       "label": "Trote de recuperación",
-      "detail": "25-30 min a FC <124 · ritmo orientativo 6:47-7:41/km"
+      "detail": "25-30 min a FC <124 · ritmo orientativo 6:50-7:45/km"
      }
     ],
     "detail": "Regeneración activa para el long run. FC por debajo de 124 toda la sesión."
@@ -6277,20 +6277,20 @@
     "d": "SÁB",
     "title": "Long Run + 7km a Ritmo Maratón",
     "type": "long",
-    "pace": "5:50-6:35 → 7km a 5:15-5:25",
+    "pace": "6:10-6:50 → 7km a 5:40-5:50",
     "dist": "20 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo suave",
-      "detail": "11 km a 5:50-6:35/km · FC 124-143"
+      "detail": "11 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Últimos 7km a Ritmo Maratón (MP)",
-      "detail": "7km a 5:15-5:25/km · FC objetivo según sensaciones"
+      "detail": "7km a 5:40-5:50/km · FC objetivo según sensaciones"
      },
      {
       "label": "Nutrición e hidratación",
@@ -6337,7 +6337,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Nórdico isquio",
@@ -6366,20 +6366,20 @@
     "d": "MIÉ",
     "title": "Tempo continuo 30'",
     "type": "tempo",
-    "pace": "5:07-5:37",
+    "pace": "5:45-6:05",
     "dist": "12 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo principal",
-      "detail": "30' continuos a 5:07-5:37/km · FC 152-164"
+      "detail": "30' continuos a 5:45-6:05/km · FC 152-164"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Total: ~12 km"
@@ -6393,7 +6393,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -6426,12 +6426,12 @@
     "d": "VIE",
     "title": "Recovery Z1",
     "type": "ez",
-    "pace": "6:47-7:41",
+    "pace": "6:50-7:45",
     "dist": "25 min",
     "steps": [
      {
       "label": "Trote de recuperación",
-      "detail": "25-30 min a FC <124 · ritmo orientativo 6:47-7:41/km"
+      "detail": "25-30 min a FC <124 · ritmo orientativo 6:50-7:45/km"
      }
     ],
     "detail": "Regeneración activa para el long run. FC por debajo de 124 toda la sesión."
@@ -6440,20 +6440,20 @@
     "d": "SÁB",
     "title": "Long Run + 8km a Ritmo Maratón",
     "type": "long",
-    "pace": "5:50-6:35 → 8km a 5:15-5:25",
+    "pace": "6:10-6:50 → 8km a 5:40-5:50",
     "dist": "23 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo suave",
-      "detail": "13 km a 5:50-6:35/km · FC 124-143"
+      "detail": "13 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Últimos 8km a Ritmo Maratón (MP)",
-      "detail": "8km a 5:15-5:25/km · FC objetivo según sensaciones"
+      "detail": "8km a 5:40-5:50/km · FC objetivo según sensaciones"
      },
      {
       "label": "Nutrición e hidratación",
@@ -6500,7 +6500,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Nórdico isquio",
@@ -6529,20 +6529,20 @@
     "d": "MIÉ",
     "title": "Tempo continuo 30'",
     "type": "tempo",
-    "pace": "5:07-5:37",
+    "pace": "5:45-6:05",
     "dist": "12 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo principal",
-      "detail": "30' continuos a 5:07-5:37/km · FC 152-164"
+      "detail": "30' continuos a 5:45-6:05/km · FC 152-164"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Total: ~12 km"
@@ -6556,7 +6556,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "4km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "4km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -6589,12 +6589,12 @@
     "d": "VIE",
     "title": "Recovery Z1",
     "type": "ez",
-    "pace": "6:47-7:41",
+    "pace": "6:50-7:45",
     "dist": "25 min",
     "steps": [
      {
       "label": "Trote de recuperación",
-      "detail": "25-30 min a FC <124 · ritmo orientativo 6:47-7:41/km"
+      "detail": "25-30 min a FC <124 · ritmo orientativo 6:50-7:45/km"
      }
     ],
     "detail": "Regeneración activa para el long run. FC por debajo de 124 toda la sesión."
@@ -6603,20 +6603,20 @@
     "d": "SÁB",
     "title": "Long Run + 10km a Ritmo Maratón",
     "type": "long",
-    "pace": "5:50-6:35 → 10km a 5:15-5:25",
+    "pace": "6:10-6:50 → 10km a 5:40-5:50",
     "dist": "26 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo suave",
-      "detail": "14 km a 5:50-6:35/km · FC 124-143"
+      "detail": "14 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Últimos 10km a Ritmo Maratón (MP)",
-      "detail": "10km a 5:15-5:25/km · FC objetivo según sensaciones"
+      "detail": "10km a 5:40-5:50/km · FC objetivo según sensaciones"
      },
      {
       "label": "Nutrición e hidratación",
@@ -6663,7 +6663,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Nórdico isquio",
@@ -6692,20 +6692,20 @@
     "d": "MIÉ",
     "title": "Tempo continuo 25'",
     "type": "tempo",
-    "pace": "5:07-5:37",
+    "pace": "5:45-6:05",
     "dist": "10 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2.5 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2.5 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo principal",
-      "detail": "25' continuos a 5:07-5:37/km · FC 152-164"
+      "detail": "25' continuos a 5:45-6:05/km · FC 152-164"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Semana del long run más largo — reduce ligeramente la intensidad del tempo. Total: ~10 km"
@@ -6719,7 +6719,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · solo activar"
+      "detail": "3km a 6:00-6:50/km · FC<140 · solo activar"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -6748,20 +6748,20 @@
     "d": "SÁB",
     "title": "🏆 Long Run más largo: 30km + 10km a MP",
     "type": "long",
-    "pace": "5:50-6:35 → 10km a 5:15-5:25",
+    "pace": "6:10-6:50 → 10km a 5:40-5:50",
     "dist": "30 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo suave",
-      "detail": "18 km a 5:50-6:35/km · FC 124-143"
+      "detail": "18 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Últimos 10km a Ritmo Maratón (MP)",
-      "detail": "10km a 5:15-5:25/km · simula la segunda mitad del maratón"
+      "detail": "10km a 5:40-5:50/km · simula la segunda mitad del maratón"
      },
      {
       "label": "Nutrición e hidratación",
@@ -6808,7 +6808,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -6841,20 +6841,20 @@
     "d": "MIÉ",
     "title": "Activación: 2×2km a MP",
     "type": "tempo",
-    "pace": "5:15-5:25",
+    "pace": "5:40-5:50",
     "dist": "8 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie: 2 × 2km a ritmo maratón",
-      "detail": "2 × 2km a 5:15-5:25/km · recuperación: 2' trote suave"
+      "detail": "2 × 2km a 5:40-5:50/km · recuperación: 2' trote suave"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Mantener la sensación del ritmo objetivo. Total: ~8 km"
@@ -6907,20 +6907,20 @@
     "d": "SÁB",
     "title": "Long Run de tapering + 6km a MP",
     "type": "long",
-    "pace": "5:50-6:35 → 6km a 5:15-5:25",
+    "pace": "6:10-6:50 → 6km a 5:40-5:50",
     "dist": "18 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo",
-      "detail": "10 km a 5:50-6:35/km · FC 124-143"
+      "detail": "10 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Últimos 6km a Ritmo Maratón",
-      "detail": "6km a 5:15-5:25/km · recordar la sensación, sin fatiga"
+      "detail": "6km a 5:40-5:50/km · recordar la sensación, sin fatiga"
      },
      {
       "label": "Nutrición e hidratación",
@@ -6967,7 +6967,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · activación antes de la fuerza, no fatiga"
+      "detail": "3km a 6:00-6:50/km · FC<140 · activación antes de la fuerza, no fatiga"
      },
      {
       "label": "2. Goblet Squat",
@@ -7000,20 +7000,20 @@
     "d": "MIÉ",
     "title": "Activación: 2×1.5km a MP",
     "type": "tempo",
-    "pace": "5:15-5:25",
+    "pace": "5:40-5:50",
     "dist": "6 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie: 2 × 1.5km a ritmo maratón",
-      "detail": "2 × 1.5km a 5:15-5:25/km · recuperación: 2' trote suave"
+      "detail": "2 × 1.5km a 5:40-5:50/km · recuperación: 2' trote suave"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Mantener la sensación del ritmo objetivo. Total: ~6 km"
@@ -7066,20 +7066,20 @@
     "d": "SÁB",
     "title": "Long Run de tapering + 4km a MP",
     "type": "long",
-    "pace": "5:50-6:35 → 4km a 5:15-5:25",
+    "pace": "6:10-6:50 → 4km a 5:40-5:50",
     "dist": "12 km",
     "steps": [
      {
       "label": "Inicio",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Cuerpo",
-      "detail": "6 km a 5:50-6:35/km · FC 124-143"
+      "detail": "6 km a 6:10-6:50/km · FC 124-143"
      },
      {
       "label": "Últimos 4km a Ritmo Maratón",
-      "detail": "4km a 5:15-5:25/km · recordar la sensación, sin fatiga"
+      "detail": "4km a 5:40-5:50/km · recordar la sensación, sin fatiga"
      },
      {
       "label": "Nutrición e hidratación",
@@ -7126,7 +7126,7 @@
     "steps": [
      {
       "label": "1. Trote de activación",
-      "detail": "3km a 5:37-6:35/km · FC<140 · solo activar"
+      "detail": "3km a 6:00-6:50/km · FC<140 · solo activar"
      },
      {
       "label": "2. Press banca/flexiones",
@@ -7147,20 +7147,20 @@
     "d": "MIÉ",
     "title": "Activación 3×1km a MP",
     "type": "tempo",
-    "pace": "5:15-5:25",
+    "pace": "5:40-5:50",
     "dist": "7 km",
     "steps": [
      {
       "label": "Calentamiento",
-      "detail": "2 km a 6:47-7:41/km · FC <124 · trote muy suave para activar"
+      "detail": "2 km a 6:50-7:45/km · FC <124 · trote muy suave para activar"
      },
      {
       "label": "Serie: 3 × 1km a ritmo maratón",
-      "detail": "3 × 1km a 5:15-5:25/km · recuperación: 90\" trote suave"
+      "detail": "3 × 1km a 5:40-5:50/km · recuperación: 90\" trote suave"
      },
      {
       "label": "Enfriamiento",
-      "detail": "5-8 min caminando o trote muy suave a 6:47-7:41/km · deja que la FC baje por debajo de 120"
+      "detail": "5-8 min caminando o trote muy suave a 6:50-7:45/km · deja que la FC baje por debajo de 120"
      }
     ],
     "detail": "Última activación a ritmo objetivo — recordar la sensación sin generar fatiga. Total: ~7 km"
@@ -7203,16 +7203,16 @@
     "d": "DOM",
     "title": "🏆 MARATÓN DE MADRID",
     "type": "race",
-    "pace": "5:15-5:25",
+    "pace": "5:40-5:50",
     "dist": "42,2 km",
     "steps": [
      {
       "label": "Km 0-5",
-      "detail": "MUY CONSERVADOR — 10-15\"/km más lento que 5:15-5:25. El error más común es salir rápido."
+      "detail": "MUY CONSERVADOR — 10-15\"/km más lento que 5:40-5:50. El error más común es salir rápido."
      },
      {
       "label": "Km 5-30",
-      "detail": "Asienta 5:15-5:25/km. Gel cada 25-30' (~60 g de carbohidrato/h) y 150-200 ml de agua/isotónica cada 15-20' a sorbos. Si hace calor, prioriza la FC y beber sobre el ritmo."
+      "detail": "Asienta 5:40-5:50/km. Gel cada 25-30' (~60 g de carbohidrato/h) y 150-200 ml de agua/isotónica cada 15-20' a sorbos. Si hace calor, prioriza la FC y beber sobre el ritmo."
      },
      {
       "label": "Km 30-38",

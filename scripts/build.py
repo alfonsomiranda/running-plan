@@ -43,6 +43,17 @@ with open(os.path.join(SCRIPT_DIR, "weeks_html.txt")) as f:
 with open(os.path.join(SCRIPT_DIR, "phase_nav.txt")) as f:
     phase_nav = f.read()
 
+# Fill MP placeholders from scripts/fitness.json (falls back to defaults)
+import json as _json
+try:
+    with open(os.path.join(SCRIPT_DIR, "fitness.json"), encoding="utf-8") as _f:
+        _fit = _json.load(_f)
+except (OSError, ValueError):
+    _fit = {}
+_mp = _fit.get("zones", {}).get("MP", "5:15-5:25")
+_goal = _fit.get("mp_goal", "~3:45-3:50")
+body = body.replace("__MP__", _mp).replace("__MP_GOAL__", _goal)
+
 body = body.replace("__WEEKS__", weeks).replace("__PHASE_NAV__", phase_nav)
 
 full = head + "\n" + body + "\n" + tail
