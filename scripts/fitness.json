@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-21",
-  "source": "Recalibración 1 desde Strava (rango 7-21 nov): Behobia real 20,2km a 5:59/km (FC 162, 2:01); 7 rodajes Z2 a 5:56-6:17/km con FC 134-146. El umbral 4:37 de Coros era optimista: bandas bajadas a la realidad observada.",
+  "source": "Recalibración determinista desde Strava (sem 23, 5 runs, 34 km). sin cambios de banda",
   "zones": {
     "Z1": "6:50-7:45",
     "Z2": "6:00-6:50",
@@ -19,6 +19,6 @@
     "Z5": "166-175",
     "UMBRAL": "158"
   },
-  "notes": "Objetivo maratón: sub-4h (MP 5:40-5:50). Recalibrar de nuevo tras Getafe (31 ene) con dato llano. En rodajes Z2 manda la FC (≤143): si sale a 6:10-6:40, perfecto. Volumen y long run según plan.",
+  "notes": "Semana 23: 33.9 km reales de 27 previstos (126%), 5 de 3 sesiones con carrera, mediana Z2 6:03/km. Sin cambios de ritmo: datos estables.",
   "mp_goal": "sub-4h (~3:58-4:05)"
 }
