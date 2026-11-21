@@ -1,4 +1,4 @@
-import datetime, json
+import datetime, json, os
 
 START = datetime.date(2026, 6, 15)
 
@@ -9,23 +9,34 @@ START = datetime.date(2026, 6, 15)
 # Método: Karvonen para FC, % velocidad umbral para ritmos
 # ═══════════════════════════════════════════════════════════════
 
-# Ritmos por zona (min/km)
-Z1     = "6:47-7:41"   # Recovery — <124 bpm
-Z2     = "5:37-6:35"   # Aeróbico base — 124-143 bpm
-Z2_LR  = "5:50-6:35"   # Long run (mitad alta de Z2) — 124-140 bpm
-Z3     = "5:07-5:37"   # Tempo / umbral bajo — 143-156 bpm
-Z4     = "4:45-5:07"   # Umbral láctico — 156-166 bpm
-Z5     = "4:18-4:45"   # VO2max — 166-175 bpm
-RACE_BEHOBIA = "5:00-5:10"  # Ritmo Behobia 20km (~Z3 alto/Z4 bajo)
-MP     = "5:15-5:25"   # Marathon Pace entrenamiento — objetivo carrera ~3:45-3:50
+# Ritmos por zona (min/km) — leídos de scripts/fitness.json (recalibrado
+# semanalmente desde Strava). Los valores por defecto reproducen la
+# calibración original: el plan no cambia hasta que se edite fitness.json.
+_FITNESS_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fitness.json")
+try:
+    with open(_FITNESS_PATH, encoding="utf-8") as _f:
+        _fit = json.load(_f)
+except (FileNotFoundError, OSError, ValueError):
+    _fit = {}
+_z = _fit.get("zones", {})
+_fc = _fit.get("fc_zones", {})
+
+Z1            = _z.get("Z1",     "6:47-7:41")   # Recovery — <124 bpm
+Z2            = _z.get("Z2",     "5:37-6:35")   # Aeróbico base — 124-143 bpm
+Z2_LR         = _z.get("Z2_LR",  "5:50-6:35")   # Long run (mitad alta de Z2) — 124-140 bpm
+Z3            = _z.get("Z3",     "5:07-5:37")   # Tempo / umbral bajo — 143-156 bpm
+Z4            = _z.get("Z4",     "4:45-5:07")   # Umbral láctico — 156-166 bpm
+Z5            = _z.get("Z5",     "4:18-4:45")   # VO2max — 166-175 bpm
+RACE_BEHOBIA  = _z.get("RACE_BEHOBIA", "5:00-5:10")  # Ritmo Behobia 20km (~Z3 alto/Z4 bajo)
+MP            = _z.get("MP",    "5:15-5:25")   # Marathon Pace entrenamiento — objetivo carrera ~3:45-3:50
 
 # FC por zona (Karvonen: FCrep=49, FCmax=175, FC reserva=126)
-FC_Z1  = "<124"
-FC_Z2  = "124-143"
-FC_Z3  = "143-156"
-FC_Z4  = "156-166"
-FC_Z5  = "166-175"
-FC_UMBRAL = "158"  # umbral láctico real Coros
+FC_Z1     = _fc.get("Z1",     "<124")
+FC_Z2     = _fc.get("Z2",     "124-143")
+FC_Z3     = _fc.get("Z3",     "143-156")
+FC_Z4     = _fc.get("Z4",     "156-166")
+FC_Z5     = _fc.get("Z5",     "166-175")
+FC_UMBRAL = _fc.get("UMBRAL", "158")  # umbral láctico real Coros
 
 # ═══════════════════════════════════════════════════════════════
 # HELPERS
