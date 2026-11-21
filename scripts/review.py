@@ -70,7 +70,7 @@ def main(dry=False):
     week_num = max(1, min(45, (today - SEASON_START).days // 7 + 1))
     planned_km = weeks[week_num - 1]["weekly_km"]
     planned_sessions = sum(1 for d in weeks[week_num - 1]["days"]
-                           if d["type"] in ("ez", "interval", "tempo", "long", "race"))
+                           if d["type"] in ("ez", "interval", "tempo", "long", "race", "strength"))
     actual_km = sum(r["km"] for r in runs)
 
     easy = [r for r in runs
