@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-21",
-  "source": "Recalibración determinista desde Strava (sem 23, 5 runs, 34 km). sin cambios de banda",
+  "updated": "2026-11-22",
+  "source": "Recalibración determinista desde Strava (sem 23, 5 runs, 37 km). sin cambios de banda",
   "zones": {
     "Z1": "6:50-7:45",
     "Z2": "6:00-6:50",
@@ -19,6 +19,6 @@
     "Z5": "166-175",
     "UMBRAL": "158"
   },
-  "notes": "Semana 23: 33.9 km reales de 27 previstos (126%), 5 de 3 sesiones con carrera, mediana Z2 6:03/km. Sin cambios de ritmo: datos estables.",
+  "notes": "Semana 23: 37.0 km reales de 27 previstos (137%), 5 de 5 sesiones con carrera, mediana Z2 6:00/km. Sin cambios de ritmo: datos estables.",
   "mp_goal": "sub-4h (~3:58-4:05)"
 }

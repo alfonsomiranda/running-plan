@@ -6,5 +6,13 @@
     "km_plan": 27,
     "z2_median": 363,
     "shift": 0
+  },
+  {
+    "date": "2026-11-22",
+    "week": 23,
+    "km": 37.0,
+    "km_plan": 27,
+    "z2_median": 360,
+    "shift": 0
   }
 ]
